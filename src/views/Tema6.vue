@@ -86,7 +86,7 @@
 
     .bloque-texto-g.color-primario-10.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
       .bloque-texto-g__img(
-        :style="{'background-image': 'url(/curso/tema6/img_6.png)'}"
+        :style="{'background-image': `url(${require_src('@/assets/curso/tema6/img_6.png')})`}"
         role="img"
         aria-label="Exhibidores de tienda con prendas y accesorios junto a pantallas digitales y etiquetas de precio"
       )
@@ -290,7 +290,7 @@
 
     .bloque-texto-g.color-primario-10.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
       .bloque-texto-g__img(
-        :style="{'background-image': 'url(/curso/tema6/img_12.png)'}"
+        :style="{'background-image': `url(${require_src('@/assets/curso/tema6/img_12.png')})`}"
         role="img"
         aria-label="Mano tocando la pantalla de una tableta"
       )

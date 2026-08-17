@@ -31,7 +31,7 @@
 
       .bloque-texto-g.color-primario-10.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
         .bloque-texto-g__img(
-          :style="{'background-image': 'url(/curso/tema2/img_4.png)'}"
+          :style="{'background-image': `url(${require_src('@/assets/curso/tema2/img_4.png')})`}"
           role="img"
           aria-label="Mano sosteniendo un teléfono móvil con íconos de compra y conexiones digitales alrededor"
         )
