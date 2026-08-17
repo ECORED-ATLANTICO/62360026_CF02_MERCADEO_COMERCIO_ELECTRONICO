@@ -1,18 +1,36 @@
 @use 'variables' as *
+
 .banner-principal-decorativo
   &-1
-    animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    top: 73%
+    right: 72%
+    width: 16%
   &-2
-    animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
+    top: 27%
+    left: 13%
+    width: 24%
+  &-3
+    position: absolute
+    top: 39%
+    left: 75%
+    width: 21%
 
+@media (min-width: 1025px)
+  .banner-principal-decorativo
+    &-1
+      top: 73%
+      right: 72%
+      width: 18%
+    &-2
+      top: 27%
+      left: 13%
+      width: 25%
+    &-3
+      top: 39%
+      left: 75%
+      width: 23%
 
 @keyframes float1
   0%
@@ -20,13 +38,62 @@
 
   100%
     transform: translateY(0px)
+    animation: float1 2.5s ease-in-out infinite alternate
 
-///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
+/**************************************************************/
+/***CUSTOM BANNER PRINCIPAL E INTERNO***/
+/**************************************************************/
+
 .banner-principal .tarjeta
   background-position: left 50% !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
+.titulo-principal__numero
+  min-width: 45px
+  height: 45px
+  margin-right: 15px
+  position: relative
+  background-color: $color-acento-contenido !important
+
+.banner-interno__fondo 
+  background-image: url('../assets/curso/portada/banner_interno.png') !important
+
+.banner-principal__row .banner-principal__img
+  width: 540px !important
+  padding: 2rem 0rem 0rem 0rem !important
+  @media screen and (max-width: $bp-max-xl)
+    padding: 2rem 0rem 0rem 0rem !important
+    width: 400px !important
+
+.banner-principal .tarjeta
+  background-position: left 50% !important
+  background-image: url('../assets/curso/portada/fondo-banner-principal-sm.png') !important
+
+  @media (min-width: $bp-min-sm)
+    background-image: url('../assets/curso/portada/fondo-banner-principal-xs.png') !important
+
+  @media (min-width: $bp-min-lg)
+    background-image: url('../assets/curso/portada/fondo-banner-principal.png') !important
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: $color-sistema-texto
+
+.banner-interno__titulo__icono i
+  color: $white
+
+  
+.banner-interno__titulo__icono 
+  background: $color-primario
+
+.banner-interno__titulo h2
+  color: $color-sistema-texto
+ 
+.barra-avance__boton--regresar span
   color: $color-sistema-texto !important
+
+figcaption
+  font-weight: normal
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $white !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
@@ -39,21 +106,13 @@ figcaption, table caption
   @media screen and (max-width: $bp-max-xl)
     width: 400px !important
 
-.banner-interno__fondo
-  background-image: url("../assets/curso/banner_interno.png") !important
-  background-color: $color-primario !important
-.banner-principal .tarjeta
-  @media screen and (max-width: $bp-max-md)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (max-width: $bp-max-xs)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
-
 .text-end 
     text-align: left !important
 
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
+
 .p-full-width
   padding: 3rem 3.5rem!important;
 .bg-full-width
@@ -67,12 +126,6 @@ figcaption, table caption
 .bg-color
   &-1
     background-color: $color-primario
-
-
-
-
-
-
 
 /**************************************************************/
 /*Media Queries*/  
@@ -90,20 +143,310 @@ figcaption, table caption
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important
 
-  
- 
-  
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
-
-  
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
 
+/**************************************************************/
+/***Fondo decorativo dinámico por tema***/
+/***Envuelve a los componentes reales (título, bloques, etc). ***/
+/***La imagen a pantalla completa (cover) vive en un ::before ***/
+/***que se "sangra" hacia los lados lo mismo que el padding   ***/
+/***del contenedor, para que llegue justo al borde de la      ***/
+/***tarjeta (esta debe tener overflow-hidden para recortarla).***/
+/***Queda aislado (isolation: isolate) dentro del propio      ***/
+/***wrapper, así su z-index negativo nunca se puede escapar y ***/
+/***afectar a otro componente de la página: no hace falta     ***/
+/***listar cada tag/clase hijo como en el enfoque anterior,   ***/
+/***cualquier contenido nuevo queda encima automáticamente.   ***/
+/***No bloquea clics (pointer-events: none) ni empuja el      ***/
+/***contenido real, que sigue en flujo normal dentro de él.   ***/
+/***Posición/tamaño/sangrado configurables por instancia con  ***/
+/***variables CSS (--fondo-posicion, --fondo-tamano,          ***/
+/***--fondo-sangrado). Cada tema solo agrega su imagen con    ***/
+/***el modificador correspondiente (--tema1, --tema2, etc.)   ***/
+/***o ninguno.                                                ***/
+/**************************************************************/
+
+.fondo-decorativo
+  --fondo-posicion: left center
+  --fondo-tamano: cover
+  --fondo-sangrado: 48px
+
+  position: relative
+  isolation: isolate
+
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    bottom: 0
+    left: calc(var(--fondo-sangrado) * -1)
+    right: calc(var(--fondo-sangrado) * -1)
+    z-index: -1
+    pointer-events: none
+    background-repeat: no-repeat
+    background-position: var(--fondo-posicion)
+    background-size: var(--fondo-tamano)
+
+  &--tema1::before
+    background-image: url('../assets/curso/tema1/img_1.png')
+  &--tema1-2::before
+    background-image: url('../assets/curso/tema1/img_5.png')
+  &--tema2::before
+    background-image: url('../assets/curso/tema2/img_1.png')
+  &--tema2-2::before
+    background-image: url('../assets/curso/tema2/img_1.png')
+  &--tema3::before
+    background-image: url('../assets/curso/tema3/img_1.png')
+
+/**************************************************************/
+/***Tarjeta con imagen de fondo (en vez de color plano)***/
+/***Misma idea que .fondo-decorativo pero como fondo propio  ***/
+/***de la tarjeta (cover/center), no como capa detrás; cada  ***/
+/***instancia agrega su imagen con el modificador --temaN.   ***/
+/**************************************************************/
+
+.tarjeta-fondo
+  position: relative
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+  &__accent
+    position: absolute
+    top: 50%
+    right: -10px
+    transform: translateY(-50%)
+    width: 40px
+    pointer-events: none
+
+  &--tema1-2
+    background-image: url('../assets/curso/tema1/img_7.png')
+  &--tema1-3
+    background-image: url('../assets/curso/tema1/img_9.png')
+  &--tema1-4
+    background-image: url('../assets/curso/tema1/img_15.png')
+  &--tema1-5
+    background-image: url('../assets/curso/tema1/img_17.png')
+  &--tema5
+    background-image: url('../assets/curso/tema5/img_12.png')
+
+/**************************************************************/
+/*** Tabla***/
+/**************************************************************/
+
+// Acordion A - colores
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+  box-shadow: none
+.acordion__activo
+  background-color: $color-sistema-h !important
+
+.tabla-a thead
+  border-top: 10px $color-secundario solid
+  color: $color-sistema-a
+  background-color: $color-secundario-10
+
+.bg-table-01
+  background-color: $white
+  color: $color-sistema-texto
   
- 
+.bg-table-02
+  background-color: $color-sistema-h
+  color: $color-sistema-texto
+.b 
+  font-weight: bold
+
+/**************************************************************/
+/***Subtítulo destacado (icono circular + franja de texto)***/
+/**************************************************************/
+
+.subtitulo-destacado
+  display: inline-flex
+  align-items: center
+  width: fit-content
+  max-width: 100%
+
+  &__icono
+    flex-shrink: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    background-color: $color-acento-contenido
+    border-radius: 50%
+    width: 3.8rem
+    height: 3.8rem
+    overflow: hidden
+    position: relative
+    z-index: 1
+
+  &__img
+    width: 100%
+    height: 100%
+    object-fit: contain
+    display: block
+
+  &__fondo
+    display: flex
+    align-items: center
+    background-color: $color-acento-contenido-20
+    border-radius: 0 0 15px 0
+    padding: 0.6rem 1.4rem 0.6rem 2rem
+    margin-left: -1.2rem
+
+  &__texto
+    font-size: 1.15rem
+    font-weight: 800
+    color: $color-sistema-texto
+    margin: 0
+    line-height: 1.3
+    word-break: break-word
+
+@media (max-width: 576px)
+  .subtitulo-destacado
+    width: 100%
+
+    &__icono
+      width: 3.4rem
+      height: 3.4rem
+
+    &__fondo
+      flex: 1
+      padding: 0.5rem 1.2rem 0.5rem 1.9rem
+
+    &__texto
+      font-size: 1rem
+
+/**************************************************************/
+/***TabsA***/
+/**************************************************************/
+
+.tabs-a.color-acento-botones.uno
+  .row
+    align-items: stretch !important
+    justify-content: center !important
+    .col-lg-4.col-xl-3
+      flex: 0 0 45% !important
+      max-width: 45% !important
+      display: flex
+      flex-direction: column
+
+      @media (min-width: 1200px)
+        flex: 0 0 45% !important
+        max-width: 45% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+    .col-lg-8.col-xl-9
+      flex: 0 0 55% !important
+      max-width: 55% !important
+      display: flex !important
+
+      @media (min-width: 1200px)
+        flex: 0 0 55% !important
+        max-width: 55% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+
+.tabs-a .tarjeta-tabs-a__tarjeta
+  flex-grow: 1 !important
+  width: 100%
+  display: flex !important
+  align-items: center !important
+  justify-content: center !important
+
+  justify-content: center !important
+
+/**************************************************************/
+/***Tarjeta con imagen y texto revelado al hover***/
+/**************************************************************/
+
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+
+.crd_hover_txt
+  position: relative
+  border-radius: 20px
+  padding: 0 !important
+  overflow: hidden !important
+
+  &:hover
+    .crd_hover_txt--body
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+      transform: translateY(0)
+      background-color: $color-acento-contenido-5
+      h4, p
+        color: $color-sistema-texto
+
+  &--img
+    img
+      display: block
+      width: 100%
+
+  &--body
+    position: absolute
+    left: 0
+    right: 0
+    bottom: 0
+    padding: 1.25rem 1.5rem
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc(100% - 3.85rem))
+    background-color: $color-acento-contenido
+
+    h4, p
+      color: $white
+      transition: color 0.3s ease-in-out
+    h4
+      font-size: 1.1rem
+
+/**************************************************************/
+/***Ícono circular (avatar + tarjeta numerada)***/
+/**************************************************************/
+
+.tarjeta-icono-avatar
+  display: flex
+  align-items: flex-start
+
+  &__icono
+    flex: 0 0 auto
+    width: 5.5rem
+    display: flex
+    align-items: center
+    justify-content: center
+    position: relative
+    z-index: 1
+
+  > .tarjeta
+    flex: 1 1 auto
+    min-width: 0
+    margin-left: -2.75rem
+    padding-left: 3.75rem !important
+
+.icono-circular
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 5.5rem
+  height: 5.5rem
+  border-radius: 50%
+  background-color: $color-sistema-h
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15)
+
+  img
+    width: 55%
+    height: 55%
+    object-fit: contain
+
+  i
+    font-size: 1.6rem
+    color: $color-acento-contenido

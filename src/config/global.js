@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Exhibición digital de productos',
+    Description:
+      'El componente formativo Exhibición digital de productos desarrolla los fundamentos técnicos y estratégicos necesarios para estructurar la exhibición de productos en comercio electrónico, articulando producto, canal, recursos visuales, contenidos, publicidad, condiciones comerciales y propuesta de exhibición como base para una presentación digital coherente y orientada a la experiencia de compra.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.png',
       },
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.png',
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-3.png',
       },
     ],
   },
@@ -31,13 +36,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Productos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Categorías y clasificación de productos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Requerimientos de exhibición',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,26 +60,157 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Canales de comercio electrónico',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tipos de canales',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Criterios para la selección de canal',
+            hash: 't_2_3',
+          },
+        ],
       },
+
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Visual marketing y comunicación estratégica',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto y estrategias del visual marketing',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Branding e identidad visual',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Estrategias de comunicación',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Publicidad digital aplicada a la exhibición',
+            hash: 't_3_4',
+          },
+        ],
       },
+
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 4',
+        titulo: 'Recursos audiovisuales para la exhibición digital',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Concepto y tipos',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Gestión y metodología de contenidos audiovisuales',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Aplicabilidad en la exhibición digital',
+            hash: 't_4_3',
+          },
+        ],
       },
+
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Tema 5',
+        titulo: 'Marco legal y políticas comerciales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Marco legal del comercio electrónico',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Propiedad intelectual e industrial',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Comunicación comercial y promoción',
+            hash: 't_5_3',
+          },
+          {
+            numero: '5.4',
+            titulo: 'Protección de datos y derechos del consumidor',
+            hash: 't_5_4',
+          },
+          {
+            numero: '5.5',
+            titulo: 'Políticas comerciales',
+            hash: 't_5_5',
+          },
+          {
+            numero: '5.6',
+            titulo: 'Garantías, cambios y devoluciones',
+            hash: 't_5_6',
+          },
+        ],
+      },
+
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Exhibición digital y propuesta de exhibición',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Concepto y tipos de exhibición digital',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Herramientas y arquitectura de la exhibición',
+            hash: 't_6_2',
+          },
+          {
+            numero: '6.3',
+            titulo:
+              'Recursos de representación digital: diseño CAD y renderizado 3D',
+            hash: 't_6_3',
+          },
+          {
+            numero: '6.4',
+            titulo: 'Customización',
+            hash: 't_6_4',
+          },
+          {
+            numero: '6.5',
+            titulo: 'Propuesta de exhibición',
+            hash: 't_6_5',
+          },
+          {
+            numero: '6.6',
+            titulo: 'Estructura de la propuesta',
+            hash: 't_6_6',
+          },
+        ],
       },
     ],
     subMenu: [

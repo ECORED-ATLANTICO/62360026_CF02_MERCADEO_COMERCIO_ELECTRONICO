@@ -2,6 +2,7 @@
 @use 'sass:color'
 @use '../variables' as *
 @use '../reset/mixins' as *
+
 .tarjeta
   border-radius: 20px
 
@@ -18,6 +19,72 @@
   &--blanca
     background-color: $white
 
+  &--fondo-img-01
+    background-image: url('../assets/curso/tema2/img_6.png')
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden 
+    background-repeat: no-repeat
+    background-size: cover 
+    background-position: center
+    overflow: hidden 
+    pointer-events: none
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+    .slyder-a__tipo-a .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+    .slyder-a__tipo-a .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+    .slyder-a__tipo-a .slyder-a__bullets
+      display: none
+
+  &--fondo-img-02
+    position: relative
+    background-image: url('../assets/curso/tema2/img_9.png')
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+
+    &__img
+      position: absolute
+      top: 5%
+      left: 0%
+      width: 45%
+      pointer-events: none
+      img
+        width: 100%
+        height: 100%
+        object-fit: contain
+      @media (min-width: 1025px)
+        top: -9%
+        left: 5%
+        width: 35%
+
+  &--fondo-img-03
+    background-image: url('../assets/curso/tema2/img_13.png')
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+
+  &--fondo-img-04
+    background-image: url('../assets/curso/tema3/img_13.png')
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    .slyder-a__tipo-b .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+    .slyder-a__tipo-b .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+    .slyder-a__bullets__item
+      background-color: $color-acento-contenido-10
+    .slyder-a__bullets__item--active
+      background-color: $color-acento-contenido
   &--gris
     background-color: $color-sistema-h
 
@@ -64,6 +131,26 @@
       background-color: color.adjust($color-primario, $lightness: 50%)
       color: textColor(color.adjust($color-primario, $lightness: 50%))
       border: solid 4px $color-primario
+  &.color-primario-5
+    background-color: $color-primario-5
+    *
+      color: textColor($color-primario-5)
+  &.color-primario-10
+    background-color: $color-primario-10
+    *
+      color: textColor($color-primario-10)
+  &.color-primario-20
+    background-color: $color-primario-20
+    *
+      color: textColor($color-primario-20)
+  &.color-primario-60
+    background-color: $color-primario-60
+    *
+      color: textColor($color-primario-60)
+  &.color-primario-70
+    background-color: $color-primario-70
+    *
+      color: textColor($color-primario-70)
   &.color-secundario
     background-color: $color-secundario
     *
@@ -72,6 +159,26 @@
       background-color: color.adjust($color-secundario, $lightness: 50%)
       color: textColor(color.adjust($color-secundario, $lightness: 50%))
       border: solid 4px $color-secundario
+  &.color-secundario-5
+    background-color: $color-secundario-5
+    *
+      color: textColor($color-secundario-5)
+  &.color-secundario-10
+    background-color: $color-secundario-10
+    *
+      color: textColor($color-secundario-10)
+  &.color-secundario-20
+    background-color: $color-secundario-20
+    *
+      color: textColor($color-secundario-20)
+  &.color-secundario-60
+    background-color: $color-secundario-60
+    *
+      color: textColor($color-secundario-60)
+  &.color-secundario-70
+    background-color: $color-secundario-70
+    *
+      color: textColor($color-secundario-70)
   &.color-acento-contenido
     background-color: $color-acento-contenido
     *
@@ -80,6 +187,26 @@
       background-color: color.adjust($color-acento-contenido, $lightness: 50%)
       color: textColor(color.adjust($color-acento-contenido, $lightness: 50%))
       border: solid 4px $color-acento-contenido
+  &.color-acento-contenido-5
+    background-color: $color-acento-contenido-5
+    *
+      color: textColor($color-acento-contenido-5)
+  &.color-acento-contenido-10
+    background-color: $color-acento-contenido-10
+    *
+      color: textColor($color-acento-contenido-10)
+  &.color-acento-contenido-20
+    background-color: $color-acento-contenido-20
+    *
+      color: textColor($color-acento-contenido-20)
+  &.color-acento-contenido-60
+    background-color: $color-acento-contenido-60
+    *
+      color: textColor($color-acento-contenido-60)
+  &.color-acento-contenido-70
+    background-color: $color-acento-contenido-70
+    *
+      color: textColor($color-acento-contenido-70)
   &.color-acento-botones
     background-color: $color-acento-botones
     *
@@ -88,6 +215,18 @@
       background-color: color.adjust($color-acento-botones, $lightness: 50%)
       color: textColor(color.adjust($color-acento-botones, $lightness: 50%))
       border: solid 4px $color-acento-botones
+  &.color-acento-botones-5
+    background-color: $color-acento-botones-5
+    *
+      color: textColor($color-acento-botones-5)
+  &.color-acento-botones-10
+    background-color: $color-acento-botones-10
+    *
+      color: textColor($color-acento-botones-10)
+  &.color-adicional-1
+    background-color: $color-adicional-1
+    *
+      color: textColor($color-adicional-1)
 
 // TARJETAS CON AVATAR
 .tarjeta-avatar

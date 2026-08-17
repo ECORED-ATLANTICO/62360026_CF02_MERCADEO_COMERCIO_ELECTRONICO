@@ -180,10 +180,25 @@
     border-left-color: $color-acento-botones
 
 .etiqueta
-  padding: 2px 6px 5px
+  display: inline-block
+  padding: 4px 14px 6px
   margin-right: 5px
+  font-weight: $base-bold-font-weight
   color: $color-etiqueta-texto
   background-color: $color-etiqueta-fondo
+
+  &.color-primario
+    background-color: $color-primario
+    color: textColor($color-primario)
+  &.color-secundario
+    background-color: $color-secundario
+    color: textColor($color-secundario)
+  &.color-acento-contenido
+    background-color: $color-acento-contenido
+    color: $white
+  &.color-acento-botones
+    background-color: $color-acento-botones
+    color: $color-sistema-texto
 
 .cajon
   position: relative
@@ -197,19 +212,19 @@
     left: 0
 
   &.color-primario
-    background-color: color.adjust($color-primario, $lightness: 55%)
+    background-color: $color-primario-10
     &:before
       background-color: $color-primario
   &.color-secundario
-    background-color: color.adjust($color-secundario, $lightness: 20%)
+    background-color: $color-secundario-10
     &:before
       background-color: $color-secundario
   &.color-acento-contenido
-    background-color: color.adjust($color-acento-contenido, $lightness: 30%)
+    background-color: $color-acento-contenido-10
     &:before
       background-color: $color-acento-contenido
   &.color-acento-botones
-    background-color: color.adjust($color-acento-botones, $lightness: 35%)
+    background-color:  $color-acento-botones-10
     &:before
       background-color: $color-acento-botones
 
