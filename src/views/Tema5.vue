@@ -10,10 +10,10 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img(src='@/assets/curso/tema5/img_1.png', alt="Mano tocando el teclado de un computador portátil con íconos holográficos de comunicación y una alerta de advertencia")
-      .bloque-texto-t__texto.col-10.mb-0
+      .bloque-texto-t__texto.col-12.col-lg-10.mb-0
         p.mb-0 La actividad comercial en entornos digitales se desarrolla dentro de un conjunto de condiciones legales y comerciales que orientan la forma en que las organizaciones presentan, promocionan y comercializan sus productos. Su cumplimiento contribuye a proteger los derechos relacionados con los contenidos, las marcas, la información personal y las condiciones de compra, al tiempo que fortalece la transparencia y la confianza en los canales de comercio electrónico. El documento actual ya establece esta relación entre legalidad, legitimidad de la oferta y protección de derechos.
 
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-3
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema5/img_2.png', class="img-fluid", alt="Balanza de la justicia iluminada sobre un computador portátil, junto a íconos de análisis de datos")
@@ -45,7 +45,7 @@
           figure
             img(src='@/assets/curso/tema5/img_4.svg', class="img-fluid")
 
-    .tarjeta.color-secundario-5.py-4.px-5.mb-5(data-aos="zoom-in-right")
+    .tarjeta.color-secundario-5.py-4.px-5.mb-3(data-aos="zoom-in-right")
       .row.align-items-center
         .col-2.col-lg-2.d-lg-block.d-none
           figure
@@ -89,7 +89,7 @@
           figure.mt-4
             img(src='@/assets/curso/tema1/img_10.svg')
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-12.col-lg-8
         .tarjeta.tarjeta--fondo-img-02.p-5.mb-0(data-aos="zoom-in-right")
           .tarjeta--fondo-img-02__img.d-lg-block.d-none
@@ -118,7 +118,7 @@
 
     p.mb-5(data-aos="zoom-in-right") La integración de estos criterios fortalece la transparencia y contribuye a que la estrategia visual no dependa únicamente de su capacidad de persuasión, sino también de la claridad y responsabilidad con la que presenta la oferta.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-12.col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
           h5 Tabla 4.
@@ -181,7 +181,7 @@
                 span Ir al recurso
                 i.fas.fa-link
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-12.col-lg-8
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-5.py-4.px-5(data-aos="zoom-in-right")
           .row.align-items-center
@@ -215,21 +215,21 @@
     .tarjeta.color-primario-5.py-3.px-4.mb-5(data-aos="zoom-in-right")
       p.mb-0.text-center Aquí se mencionan algunas políticas comerciales que orientan a los usuarios dentro de un canal de venta:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-7.mb-0
-        .tarjeta.tarjeta--fondo-img-01.py-4.px-3.mb-0(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-4.mb-3(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0.p-0
-            SlyderA.py-4.px-5(tipo="a")
-              .py-3.px-4.p-md-4.p-md-5
+            SlyderA.py-2.px-5(tipo="a")
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Respaldo del producto
                 p.mb-0 Define las condiciones mediante las cuales la organización responde frente a situaciones relacionadas con la conformidad, estado o funcionamiento del producto.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Modificación de la compra
                 p.mb-0 Establece las condiciones para realizar ajustes o sustituciones posteriores a la compra.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Retorno de la compra
                 p.mb-0 Determina los escenarios y procedimientos aplicables al retorno del producto o a la reversión de la operación.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Relación comercial
                 p.mb-0 Integra otros lineamientos necesarios para orientar la atención y la experiencia del usuario dentro del canal.
       .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="zoom-in-right")
@@ -243,7 +243,7 @@
     .mb-0
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-8.col-lg-1.mb-0(data-aos="zoom-in-right")
+      .col-8.col-lg-1.d-none.d-lg-block.mb-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema5/img_10.svg', class="img-fluid", alt="")
       .col-12.col-lg-11.mb-0

@@ -12,7 +12,7 @@
       .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
         .bloque-texto-t__img.mb-0
           img(src='@/assets/curso/tema2/img_2.png')
-        .bloque-texto-t__texto.col-10.mb-0
+        .bloque-texto-t__texto.col-12.col-lg-10.mb-0
           p.mb-0 Los canales de comercio electrónico constituyen los espacios digitales mediante los cuales las organizaciones exhiben, promocionan y comercializan productos y servicios. Cada canal posee características particulares relacionadas con el tipo de público, las formas de interacción, las funcionalidades disponibles y las estrategias de comunicación que pueden implementarse. Por esta razón, la selección del canal influye directamente en la manera como se organiza la información, se presentan los productos y se desarrolla la experiencia de compra.
 
       .tarjeta.color-primario-5.py-4.px-5(data-aos="zoom-in-right")
@@ -29,7 +29,7 @@
         .h2(data-aos="fade-right") 2.1 Concepto
       .mb-0
 
-      .bloque-texto-g.color-primario-10.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
+      .bloque-texto-g.color-primario-10.p-3.p-sm-4.p-md-5.mb-3(data-aos="zoom-in-right")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require_src('@/assets/curso/tema2/img_4.png')})`}"
           role="img"
@@ -57,25 +57,25 @@
         figure
           img(src='@/assets/curso/tema2/img_5.png', class="img-fluid", alt="Computador portátil mostrando el catálogo de una tienda virtual en línea")
       .col-12.col-lg-7.mb-0
-        .tarjeta.tarjeta--fondo-img-01.py-4.px-3.mb-0(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-4.mb-0(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0.p-0
-            SlyderA.py-4.px-5(tipo="a")
-              .py-3.px-4.p-md-4.p-md-5
+            SlyderA.py-2.px-5(tipo="a")
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Atención al cliente
                 p.mb-0 Brinda orientación y acompañamiento antes, durante y después de la compra, resolviendo consultas, suministrando información oportuna y ofreciendo soluciones que fortalecen la confianza, la satisfacción y la relación con el cliente.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Administración de pedidos
                 p.mb-0 Coordina el registro, procesamiento, preparación, despacho y entrega de los pedidos, garantizando información actualizada, cumplimiento de los tiempos establecidos y control de cada etapa del proceso logístico.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Soporte técnico
                 p.mb-0 Atiende inconvenientes relacionados con la plataforma, los medios de pago, el acceso a la cuenta o el funcionamiento de los servicios digitales, asegurando una solución ágil que facilite la continuidad de la compra.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Gestión de reclamos
                 p.mb-0 Recibe, analiza y resuelve las inconformidades presentadas por los clientes, aplicando procedimientos establecidos que permitan ofrecer respuestas oportunas, soluciones adecuadas y acciones para prevenir situaciones similares.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Seguimiento de solicitudes
                 p.mb-0 Controla el estado de consultas, requerimientos, cambios, devoluciones y demás solicitudes, manteniendo comunicación permanente con el cliente hasta confirmar la atención y el cierre satisfactorio del proceso.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Mejora continua de la experiencia de compra
                 p.mb-0 Evalúa resultados, recopila opiniones y analiza indicadores para identificar oportunidades de mejora que optimicen los procesos, incrementen la satisfacción del cliente y fortalezcan la calidad del servicio ofrecido.
 
@@ -128,7 +128,7 @@
                   b Relación entre visibilidad y comercialización
                 td.text-start Facilita que la exposición del producto se vincule con dinámicas de alcance, interés e intención de compra.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-12.col-lg-8
         .tarjeta.tarjeta--fondo-img-02.p-5.mb-0(data-aos="zoom-in-right")
           .tarjeta--fondo-img-02__img.d-lg-block.d-none
@@ -148,7 +148,7 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img(src='@/assets/curso/tema2/img_10.png')
-      .bloque-texto-t__texto.col-10.mb-0
+      .bloque-texto-t__texto.col-12.col-lg-10.mb-0
         p.mb-0 Los criterios de los canales de comercio electrónico corresponden a los elementos de análisis que permiten valorar su pertinencia para la exhibición y comercialización de productos en entornos digitales. No se trata únicamente de identificar dónde puede publicarse una oferta, sino de comprender en qué condiciones conviene hacerlo, qué exigencias impone el canal y cómo estas afectan la organización del catálogo, la visibilidad del producto y la interacción con el usuario. Por ello, los criterios funcionan como una guía para la toma de decisiones comerciales y visuales.
 
     .row.justify-content-center.mb-5

@@ -239,7 +239,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/62360026_CF02_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -255,14 +255,86 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: '<em>Branding</em>',
+      significado:
+        'Proceso de construcción y fortalecimiento de identidad y reconocimiento de una marca en el mercado.',
+    },
+    {
+      termino: 'Canal de comercio electrónico',
+      significado:
+        'Entorno digital mediante el cual se presentan, promueven y comercializan productos o servicios.',
+    },
+    {
+      termino: 'Contenido audiovisual',
+      significado:
+        'Recurso digital que integra imagen, sonido o movimiento para comunicar información comercial o promocional.',
+    },
+    {
+      termino: 'Customización',
+      significado:
+        'Adaptación o variación de un producto o de su presentación según opciones definidas en el canal.',
+    },
+    {
+      termino: 'Exhibición digital',
+      significado:
+        'Organización y presentación visual de productos dentro de entornos electrónicos para facilitar su comprensión comercial.',
+    },
+    {
+      termino: 'Influenciador',
+      significado:
+        'Persona con capacidad de incidir en audiencias digitales mediante contenidos, opinión o presencia en plataformas.',
+    },
+    {
+      termino: '<em>Marketplace</em>',
+      significado:
+        'Espacio digital donde diferentes oferentes presentan y comercializan productos o servicios a múltiples usuarios.',
+    },
+    {
+      termino: 'Política comercial',
+      significado:
+        'Conjunto de lineamientos que regulan condiciones de compra, cambios, devoluciones o garantías dentro del canal.',
+    },
+    {
+      termino: 'Propuesta de exhibición',
+      significado:
+        'Formulación estructurada que organiza la manera en que un producto será presentado en comercio electrónico.',
+    },
+    {
+      termino: 'Renderizado 3D',
+      significado:
+        'Representación digital tridimensional utilizada para visualizar productos, espacios o configuraciones dentro de la exhibición.',
     },
   ],
   referencias: [
     {
-      referencia: 'REF',
-      link: 'LINK',
+      referencia:
+        'Cámara Colombiana de Comercio Electrónico [CCCE]. (2025). <em>Informe de cierre del comportamiento del comercio electrónico en Colombia durante 2024</em>. Cámara Colombiana de Comercio Electrónico.',
+      link: 'https://ccce.org.co/noticias/informe-de-cierre-del-comportamiento-del-comercio-electronico-en-colombia-durante-2024/',
+    },
+    {
+      referencia:
+        'Guzmán Duque, A. P., & Abreo Pinzón, C. A. (2021). <em>Influencia del comercio electrónico en el desempeño financiero de las pymes en Manizales, Colombia</em>. Revista Escuela de Administración de Negocios, (91).',
+      link: 'https://www.redalyc.org/journal/818/81871935006/',
+    },
+    {
+      referencia:
+        'Mazabanda, M. A. C. (2022). <em>Merchandising visual y marketing digital: como estrategias de fortalecimiento de marca</em>. Revista Eruditus, 3(3), 41–54.',
+      link: 'https://dialnet.unirioja.es/descarga/articulo/8549538.pdf',
+    },
+    {
+      referencia:
+        'Minderest. (2020, 3 de junio). <em>La importancia del visual merchandising online</em>. Minderest.',
+      link: 'https://www.minderest.com/es/blog/2020/06/03/la-importancia-del-visual-merchandising-online',
+    },
+    {
+      referencia:
+        'Superintendencia de Industria y Comercio [SIC]. (2021, agosto 1). <em>Todo usuario de una plataforma de comercio electrónico está protegido por los derechos del consumidor</em>. Sede Electrónica SIC.',
+      link: 'https://sedeelectronica.sic.gov.co/publicaciones/boletin-juridico/boletin/todo-usuario-de-una-plataforma-de-comercio-electronico-esta-protegido-por-los-derechos-del-consumidor',
+    },
+    {
+      referencia:
+        'Uribe Beltrán, C. I., & Sabogal Neira, D. F. (2021). <em>Marketing digital en micro y pequeñas empresas de publicidad de Bogotá</em>. Universidad & Empresa, 23(40).',
+      link: 'https://www.redalyc.org/journal/1872/187265084004/',
     },
   ],
   creditos: [
@@ -286,18 +358,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Nicolás Cruz Ríos',
+          cargo: 'Experto temático',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Maria Fernanda Morales Angulo',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -306,12 +373,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Andres Felipe Herrera Roldan',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Alexander Donado Molinares',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -332,12 +399,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -347,7 +414,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

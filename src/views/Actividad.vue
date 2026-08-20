@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Mercadeo visual para comercio electrónico.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Verificar la comprensión de los conceptos, principios, recursos y aplicaciones del componente formativo relacionados con productos, canales, <em>visual marketing</em>, contenidos audiovisuales, publicidad digital, marco legal, exhibición digital, políticas comerciales y propuesta de exhibición en comercio electrónico.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,61 +30,67 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Qué permite la clasificación de productos dentro del comercio electrónico estratégico actual?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Organizar la oferta según características, usos o relaciones dentro del canal.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Eliminar la necesidad de estructurar fichas dentro del catálogo comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir las políticas comerciales aplicadas a cada referencia exhibida digitalmente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reemplazar la gestión de contenidos por criterios publicitarios de campaña.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Cuál es la función principal de los requerimientos de exhibición del producto?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Reducir la cantidad de recursos visuales empleados en la tienda virtual.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Orientar la forma de presentar el producto según sus necesidades comerciales.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Sustituir la descripción del producto por escenas de uso ambientadas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
-        },
-        {
-          id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
+              texto:
+                'Limitar la organización del catálogo a una sola categoría comercial.',
               esCorrecta: false,
             },
           ],
@@ -93,30 +99,34 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Qué caracteriza a un canal de comercio electrónico dentro del componente formativo?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto:
+                'Ser un documento normativo para regular las transacciones comerciales digitales.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Ser un sistema exclusivo de pagos para operaciones entre organizaciones.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto:
+                'Ser el entorno digital donde se exhiben y comercializan productos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto:
+                'Ser un recurso gráfico para diseñar campañas de visual marketing.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -125,29 +135,33 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Para qué sirven los criterios del canal en comercio electrónico aplicado?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto:
+                'Para reemplazar la propuesta de exhibición por lineamientos de publicidad digital.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto:
+                'Para eliminar la necesidad de definir recursos de presentación del producto.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto:
+                'Para establecer el precio final de todas las referencias del catálogo.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto:
+                'Para orientar la selección y organización de la oferta dentro del canal.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -155,30 +169,33 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Qué aporta el <em>visual marketing</em> a la exhibición de productos en línea?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                'Convierte las políticas comerciales en recursos promocionales dentro del catálogo.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto:
+                'Sustituye la clasificación de productos por contenidos audiovisuales exclusivamente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto:
+                'Limita la presentación visual a imágenes sin relación con la marca.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Reemplaza la propuesta de exhibición por acciones de atención al cliente.',
               esCorrecta: false,
             },
           ],
@@ -188,28 +205,32 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué busca una estrategia de <em>visual marketing</em> en un canal digital?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto:
+                'Sustituir la organización del catálogo por promociones temporales de precio.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'Articular recursos visuales para fortalecer la presentación comercial del producto.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto:
+                'Convertir la garantía en un recurso de navegación dentro del sitio.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto:
+                'Reemplazar la ficha del producto por mensajes de redes sociales.',
               esCorrecta: false,
             },
           ],
@@ -219,28 +240,32 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Cuál es la finalidad del <em>branding</em> dentro del mercadeo visual digital?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto:
+                'Organizar cambios y devoluciones según las políticas del canal comercial.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto:
+                'Clasificar productos por requerimientos de exhibición y recursos de diseño.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Construir identidad y reconocimiento de la marca en la oferta digital.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto:
+                'Sustituir la comunicación online por campañas de publicidad segmentada.',
               esCorrecta: false,
             },
           ],
@@ -250,28 +275,32 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿Qué integra la lógica 3V en la comunicación comercial de la tienda?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Visualización, validación y variación del precio de cada referencia comercial.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Viralidad, valor y venta dentro de la estrategia de comunicación digital.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Velocidad, volumen y variedad para clasificar productos en el catálogo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Visibilidad, verificación y virtualidad como normas del comercio electrónico.',
               esCorrecta: false,
             },
           ],
@@ -281,18 +310,32 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            '¿Qué función cumple una tienda en redes dentro del comercio electrónico?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Actuar como espacio de exhibición y comercialización dentro de plataformas sociales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Sustituir completamente el catálogo del sitio web institucional de la marca.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reemplazar la política de cambios por mensajes directos al usuario.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Limitar la interacción comercial a campañas audiovisuales de corta duración.',
               esCorrecta: true,
             },
           ],
@@ -302,18 +345,32 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            '¿Qué aporta un embajador de marca a la exhibición comercial digital estratégica?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Organiza las categorías del catálogo según requerimientos técnicos del producto.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Fortalece la representación y conexión de la marca con sus públicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reemplaza la publicidad digital por contenidos legales del canal comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituye el renderizado 3D por imágenes de ambientación del producto.',
               esCorrecta: false,
             },
           ],
@@ -323,19 +380,33 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Qué caracteriza a los contenidos audiovisuales dentro del comercio electrónico actual?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Son recursos digitales que comunican información mediante imagen, sonido o movimiento.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Son normas legales aplicadas al uso de plataformas y marketplaces comerciales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Son políticas de garantía vinculadas con la experiencia de compra digital.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Son fichas técnicas utilizadas exclusivamente en procesos de devolución comercial.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -344,18 +415,32 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Para qué sirve la gestión de contenidos audiovisuales en una tienda virtual?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Para definir el marco legal aplicable a la publicidad del canal.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Para organizar, actualizar y articular recursos visuales según la estrategia comercial.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Para reemplazar la clasificación de productos por campañas de branding.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Para eliminar la necesidad de fichas y descripciones dentro del catálogo.',
               esCorrecta: false,
             },
           ],
@@ -365,18 +450,32 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            '¿Qué papel cumple la metodología en la producción de contenidos audiovisuales?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Sustituye los criterios del canal por decisiones de diseño asistido.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Define la secuencia de trabajo para construir recursos visuales con coherencia.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reemplaza la propuesta de exhibición por acciones de promoción comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Organiza exclusivamente las políticas de garantía y devoluciones del canal.',
               esCorrecta: false,
             },
           ],
@@ -386,19 +485,33 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Cómo se relaciona la arquitectura web con la exhibición de productos digitales?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Regula jurídicamente el uso de influenciadores dentro de campañas comerciales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Sustituye la propuesta de exhibición por criterios de visual marketing aplicado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Organiza la estructura del entorno digital para facilitar navegación y consulta.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reemplaza la gestión de contenidos por políticas de cambios y devoluciones.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -407,23 +520,213 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Qué finalidad tiene la publicidad digital dentro del comercio electrónico estratégico?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Establecer las garantías aplicables a cada producto exhibido en la tienda.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Organizar las categorías del catálogo según criterios de exhibición comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Definir los requerimientos técnicos del renderizado 3D y la customización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Difundir la oferta y fortalecer su visibilidad dentro de entornos digitales.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué aborda el marco legal de internet en este componente formativo?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Únicamente la creación de contenidos audiovisuales para redes sociales comerciales.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Solo la organización visual de categorías dentro del comercio electrónico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Exclusivamente el uso de marketplaces para ventas entre consumidores finales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Solamente la selección de influenciadores y embajadores de marca digitales.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué define la exhibición digital dentro del comercio electrónico del componente?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La creación de normas legales para regular campañas de publicidad digital.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La organización y presentación visual de productos dentro de entornos electrónicos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'La clasificación de políticas comerciales según cambios, devoluciones y garantías.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La construcción de embajadores de marca para tiendas en redes sociales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál es el aporte del renderizado 3D a la exhibición digital estratégica?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Sustituye la arquitectura web por escenas interactivas de navegación comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Elimina la necesidad de fichas descriptivas dentro del canal de venta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Permite representar productos con mayor detalle, volumen y contextualización visual.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reemplaza las políticas comerciales por recursos de comunicación audiovisual aplicada.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué función cumple la customización dentro de la exhibición digital del producto?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Organiza exclusivamente las devoluciones asociadas a productos con variaciones comerciales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Permite mostrar opciones configurables sin perder claridad en la oferta presentada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reemplaza la clasificación de productos por contenidos audiovisuales de campaña.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituye la ficha del producto por experiencias inmersivas de navegación.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué integra una propuesta de exhibición dentro del comercio electrónico aplicado?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Solo imágenes del producto y promociones activas dentro del marketplace.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Únicamente políticas comerciales para garantizar la seguridad de la compra.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Producto, canal, recursos de presentación y condiciones comerciales de exhibición.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Exclusivamente acciones de branding e influenciadores para redes sociales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'Excelente! Ha superado la actividad.',
+          mensaje_incorrecto:
+            'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',

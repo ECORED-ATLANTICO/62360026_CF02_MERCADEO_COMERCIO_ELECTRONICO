@@ -10,11 +10,11 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img(src='@/assets/curso/tema4/img_1.png', alt="Cámara fotográfica en primer plano con íconos holográficos de comunicación digital sobrepuestos")
-      .bloque-texto-t__texto.col-10.mb-0
+      .bloque-texto-t__texto.col-12.col-lg-10.mb-0
         p.mb-0 Los recursos audiovisuales constituyen un apoyo estratégico para la exhibición de productos en los entornos de comercio electrónico, ya que permiten ampliar la información disponible, contextualizar la oferta y comunicar atributos que pueden resultar difíciles de explicar únicamente mediante descripciones textuales. Su utilización facilita la comprensión de los productos y contribuye a generar experiencias de interacción más completas dentro de los diferentes canales digitales.
         p.mb-0 En el contexto del #[i mercadeo visual], estos recursos deben responder a una intención comercial y comunicativa definida.
 
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-3
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema4/img_2.png', class="img-fluid", alt="Manos escribiendo en un computador portátil con un editor de video abierto, rodeado de cámaras fotográficas")
@@ -81,7 +81,7 @@
             h4.mb-3 Apoyo promocional
             p.mb-0 Refuerza campañas, lanzamientos y mensajes comerciales orientados a incrementar la visibilidad de la oferta.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-12.col-lg-8
         .tarjeta.tarjeta--fondo-img-02.p-5.mb-0(data-aos="zoom-in-right")
           .tarjeta--fondo-img-02__img.d-lg-block.d-none
@@ -113,7 +113,7 @@
     .tarjeta.color-primario-5.py-3.px-4.mb-5(data-aos="zoom-in-right")
       p.mb-0.text-center A continuación, le presentamos el paso a paso de una secuencia metodológica real:
 
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-3
       .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema4/img_9.png', class="img-fluid", alt="Pantalla de monitor de video mostrando prendas de vestir en un set de grabación")
@@ -165,8 +165,8 @@
     .tarjeta.tarjeta--gris.py-3.px-4.mb-5(data-aos="zoom-in-right")
       p.mb-0.text-center He aquí algunas herramientas o formas para la correcta y efectiva aplicabilidad en la exhibición digital:
 
-    .row.mb-5
-      .col-md-6.col-lg-4.mb-4.mb-lg-0.d-flex(data-aos="zoom-in-right")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-12.col-lg-6.col-xl-4.mb-4.mb-lg-3.d-flex(data-aos="zoom-in-right")
         .tarjeta-icono-avatar.h-100
           .tarjeta-icono-avatar__icono
             .icono-circular
@@ -175,7 +175,7 @@
             h4.mb-3 Explicación funcional
             p.mb-3 Se utiliza cuando el producto requiere demostrar su funcionamiento, instalación, configuración o modo de uso.
             p.mb-0 Ejemplo: video demostrativo de una herramienta eléctrica.
-      .col-md-6.col-lg-4.mb-4.mb-lg-0.d-flex(data-aos="zoom-in-right")
+      .col-md-12.col-lg-6.col-xl-4.mb-4.mb-lg-3.d-flex(data-aos="zoom-in-right")
         .tarjeta-icono-avatar.h-100
           .tarjeta-icono-avatar__icono
             .icono-circular
@@ -184,7 +184,7 @@
             h4.mb-3 Ambientación y contexto
             p.mb-3 Se aplica cuando resulta importante relacionar el producto con un espacio, una experiencia o una situación cotidiana.
             p.mb-0 Ejemplo: mobiliario presentado dentro de un ambiente de hogar.
-      .col-md-6.col-lg-4.mb-4.mb-lg-0.d-flex(data-aos="zoom-in-right")
+      .col-md-12.col-lg-6.col-xl-4.mb-4.mb-lg-3.d-flex(data-aos="zoom-in-right")
         .tarjeta-icono-avatar.h-100
           .tarjeta-icono-avatar__icono
             .icono-circular

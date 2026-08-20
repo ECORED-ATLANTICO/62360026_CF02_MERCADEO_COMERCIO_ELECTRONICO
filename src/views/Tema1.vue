@@ -12,10 +12,10 @@
       .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
         .bloque-texto-t__img.mb-0
           img(src='@/assets/curso/tema1/img_2.png')
-        .bloque-texto-t__texto.col-10.mb-0
+        .bloque-texto-t__texto.col-12.col-lg-10.mb-0
           p.mb-0 Los productos constituyen el eje central de las actividades de exhibición dentro del comercio electrónico, ya que sobre ellos se estructuran las estrategias de organización, comunicación y presentación desarrolladas en los diferentes canales digitales. Su adecuada identificación y organización permiten construir experiencias de navegación más claras, facilitar la localización de la oferta y responder a las necesidades de los usuarios durante el proceso de búsqueda y compra.
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-8.order-2.order-lg-1
           p.mb-4(data-aos="zoom-in-right") En el contexto del mercadeo visual, la exhibición de productos no depende únicamente de su presentación gráfica. También requiere establecer criterios para clasificarlos, agruparlos según características comunes e identificar los requerimientos técnicos y comerciales que orientan su publicación dentro de una tienda virtual o cualquier otro canal de venta electrónico. Estos aspectos favorecen la construcción de catálogos organizados, fortalecen la comunicación comercial y contribuyen a una experiencia de usuario más eficiente.
           .tarjeta.color-primario-10.py-4.px-5(data-aos="zoom-in-right")
@@ -32,7 +32,7 @@
 
       p.mb-5(data-aos="fade-up") El producto representa la unidad básica de intercambio dentro de los procesos comerciales y constituye el elemento sobre el cual se articulan las decisiones de exhibición, clasificación, comunicación y comercialización en un entorno digital. En comercio electrónico, su relevancia no depende únicamente de su existencia física o intangible, sino de la manera en que es definido, presentado y asociado a una propuesta de valor que responda a las necesidades del mercado y a las condiciones del canal.
 
-    .tarjeta.color-acento-botones-5.py-4.px-5.mb-5
+    .tarjeta.color-acento-botones-5.py-4.px-5.mb-3
       .row.justify-content-around.align-items-center
         .col-3.col-lg-2.d-lg-block.d-none
           figure
@@ -95,7 +95,7 @@
                     b Apoyo a la exhibición digital
                   td.text-start Favorece la construcción de vitrinas, promociones y recorridos visuales coherentes con la oferta comercial.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-12.col-lg-8
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-3.py-4.px-5(data-aos="zoom-in-right")
           .row.align-items-center
@@ -116,7 +116,7 @@
     .mb-0
 
     .row.align-items-center.mb-5
-      .col-2.col-lg-1(data-aos="zoom-in-right")
+      .col-2.col-lg-1.d-none.d-lg-block(data-aos="zoom-in-right")
         img(src='@/assets/curso/tema1/img_11.svg', class="img-fluid")
       .col
         p.mb-0(data-aos="zoom-in-right") Los requerimientos de exhibición corresponden al conjunto de condiciones que deben considerarse para presentar un producto de manera adecuada dentro de un canal de comercio electrónico. Estos incluyen aspectos relacionados con la información comercial, los recursos visuales, la organización del catálogo y las características del entorno digital donde será publicada la oferta. Su identificación permite planificar exhibiciones más coherentes, facilitar la consulta por parte de los usuarios y fortalecer la experiencia de navegación.

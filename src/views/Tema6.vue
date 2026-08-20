@@ -10,10 +10,10 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img(src='@/assets/curso/tema6/img_1.png', alt="Maniquíes con prendas de vestir junto a bolsas de compras y pantallas con fotografías de productos")
-      .bloque-texto-t__texto.col-10.mb-0
+      .bloque-texto-t__texto.col-12.col-lg-10.mb-0
         p.mb-0 La exhibición digital constituye la etapa en la que convergen los diferentes elementos del comercio electrónico para presentar productos y servicios de manera organizada, atractiva y funcional dentro de los canales digitales. Su desarrollo integra aspectos relacionados con la organización de la oferta, el mercadeo visual, los recursos audiovisuales, la comunicación comercial y las condiciones técnicas que facilitan la interacción entre las organizaciones y los usuarios.
 
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-3
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema6/img_2.png', class="img-fluid", alt="Carrito de compras con bolsas y cajas sobre un computador portátil que muestra el catálogo de una tienda de ropa")
@@ -47,26 +47,26 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-7.mb-0
-        .tarjeta.tarjeta--fondo-img-01.py-4.px-3.mb-0(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-4.mb-0(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0.p-0
-            SlyderA.py-4.px-5(tipo="a")
-              .py-3.px-4.p-md-4.p-md-5
+            SlyderA.py-2.px-5(tipo="a")
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Exhibición por categorías
                 p.mb-0 Organiza los productos en grupos relacionados según sus características, función o línea comercial, facilitando la localización de la oferta. Aplicación: adecuada para tiendas virtuales con catálogos amplios y diversidad de referencias.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Exhibición por campañas
                 p.mb-0 Presenta productos asociados a promociones, temporadas, lanzamientos o eventos comerciales con el propósito de destacar una oferta específica. Aplicación: se utiliza para fortalecer la visibilidad de campañas temporales o estrategias promocionales.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Exhibición por experiencias
                 p.mb-0 Relaciona los productos con escenarios de uso, estilos de vida o soluciones que permiten comprender mejor sus beneficios y aplicaciones. Aplicación: recomendada para productos cuya decisión de compra depende del contexto o de la experiencia de uso.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Exhibición personalizada
                 p.mb-0 Organiza la oferta según intereses, preferencias o comportamientos de los usuarios para ofrecer una experiencia más pertinente. Aplicación: frecuente en plataformas que utilizan información de navegación para recomendar productos relacionados.
       .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema6/img_5.png', class="img-fluid", alt="Mano tocando una tableta con prendas de vestir holográficas y etiquetas de precio")
 
-    .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-5.py-4.px-5.mb-5(data-aos="zoom-in-right")
+    .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-5.py-4.px-5.mb-3(data-aos="zoom-in-right")
       .row.align-items-center
         .col-2.col-lg-2.d-lg-block.d-none
           figure
@@ -145,7 +145,7 @@
       .col-12.col-lg-10
         p.mb-0 Desde una perspectiva estratégica, las herramientas de exhibición digital también cumplen una función de articulación entre la operación comercial y la comunicación visual. No basta con tener recursos disponibles; es necesario que estos se seleccionen y se utilicen en función de la naturaleza del producto, del tipo de canal y del objetivo de la exhibición. Una herramienta puede servir para mostrar mejor una referencia, para facilitar la consulta del usuario o para sostener una propuesta visual más consistente dentro del catálogo. Por ello, trabajar este subtema implica comprender que las herramientas son mediaciones concretas entre la oferta y su puesta en escena digital.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-12.col-lg-8
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-3.py-4.px-5(data-aos="zoom-in-right")
           .row.align-items-center
@@ -185,13 +185,13 @@
     .row.align-items-center.mb-5
       .col-12.col-lg-7.order-2.order-lg-1
         TabsA.color-acento-botones.uno(data-aos="zoom-in-right")
-          .tarjeta.color-adicional-1.p-5.h-100.d-flex.flex-column.justify-content-center(titulo="Paso 1")
+          .tarjeta.color-adicional-1.p-4.h-100.d-flex.flex-column.justify-content-center(titulo="Paso 1")
             h4.mb-4 Diseño CAD
             p.mb-0 Se construye el modelo digital del producto definiendo su forma, dimensiones, estructura y componentes principales.
-          .tarjeta.color-adicional-1.p-5.h-100.d-flex.flex-column.justify-content-center(titulo="Paso 2")
+          .tarjeta.color-adicional-1.p-4.h-100.d-flex.flex-column.justify-content-center(titulo="Paso 2")
             h4.mb-4 Renderizado 3D
             p.mb-0 El modelo incorpora materiales, texturas, iluminación y escenarios para generar imágenes con apariencia realista.
-          .tarjeta.color-adicional-1.p-5.h-100.d-flex.flex-column.justify-content-center(titulo="Paso 3")
+          .tarjeta.color-adicional-1.p-4.h-100.d-flex.flex-column.justify-content-center(titulo="Paso 3")
             h4.mb-4 Integración en la exhibición digital
             p.mb-0 Las representaciones obtenidas se incorporan a fichas de producto, catálogos, campañas comerciales y otros recursos utilizados dentro del canal de comercio electrónico.
       .col-12.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0
@@ -210,7 +210,7 @@
           figure.mt-4
             img(src='@/assets/curso/tema1/img_10.svg')
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-12.col-lg-8
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-5.py-4.px-5(data-aos="zoom-in-right")
           .row.align-items-center
@@ -252,23 +252,23 @@
         figure
           img(src='@/assets/curso/tema6/img_11.png', class="img-fluid", alt="Pantalla interactiva de tienda mostrando la configuración de color y talla de una prenda de vestir")
       .col-12.col-lg-7.mb-0
-        .tarjeta.tarjeta--fondo-img-01.py-4.px-3.mb-0(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-4.mb-0(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0.p-0
-            SlyderA.py-4.px-5(tipo="a")
-              .py-3.px-4.p-md-4.p-md-5
+            SlyderA.py-2.px-5(tipo="a")
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Personalización del contenido
                 p.mb-0 La personalización del contenido adapta la presentación de productos, categorías o promociones según los intereses o comportamientos del usuario, favoreciendo una experiencia de navegación más pertinente y facilitando el acceso a información relacionada con sus preferencias.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Configuración del producto
                 p.mb-0 La configuración del producto permite seleccionar características como color, tamaño, material o accesorios antes de realizar la compra, ofreciendo alternativas que responden a las necesidades del usuario sin modificar la organización general de la exhibición.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Recomendaciones relacionadas
                 p.mb-0 Las recomendaciones relacionadas presentan productos complementarios o similares durante la navegación, ampliando las opciones disponibles y fortaleciendo la relación entre las diferentes categorías del catálogo.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Experiencia personalizada
                 p.mb-0 La experiencia personalizada organiza la exhibición según el perfil, comportamiento o contexto del usuario, facilitando recorridos de navegación más relevantes y una interacción más eficiente con la oferta comercial.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-12.col-lg-8
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-5.py-4.px-5(data-aos="zoom-in-right")
           .row.align-items-center
@@ -375,7 +375,7 @@
 
     p.mb-5(data-aos="zoom-in-right") La propuesta de exhibición constituye una herramienta de planificación que integra los diferentes recursos estudiados a lo largo del componente para estructurar una experiencia comercial organizada, coherente y orientada a las necesidades de los usuarios.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-12.col-lg-8
         .tarjeta.tarjeta--fondo-img-02.p-5.mb-0(data-aos="zoom-in-right")
           .tarjeta--fondo-img-02__img.d-lg-block.d-none
@@ -413,25 +413,25 @@
         figure
           img(src='@/assets/curso/tema6/img_15.png', class="img-fluid", alt="Mujer usando un teléfono para ver la realidad aumentada de una prenda de vestir en una tienda")
       .col-12.col-lg-7.mb-0
-        .tarjeta.tarjeta--fondo-img-01.py-4.px-3.mb-0(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-4.mb-0(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0.p-0
-            SlyderA.py-4.px-5(tipo="a")
-              .py-3.px-4.p-md-4.p-md-5
+            SlyderA.py-2.px-5(tipo="a")
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Identificación del producto
                 p.mb-0 Se definen las características del producto o servicio, los requerimientos de exhibición y las necesidades de presentación que orientarán el desarrollo de la propuesta.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Definición del canal
                 p.mb-0 Se establece el canal de comercio electrónico donde se implementará la exhibición y la forma en que se organizará la oferta según las características de ese entorno digital.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Organización de la exhibición
                 p.mb-0 Se estructura la arquitectura del catálogo mediante categorías, subcategorías, fichas de producto y recorridos de navegación que faciliten la consulta de la oferta.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Integración de recursos
                 p.mb-0 Se seleccionan imágenes, recursos audiovisuales, representaciones digitales, elementos de personalización y demás apoyos que fortalecerán la presentación de los productos.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Comunicación y condiciones comerciales
                 p.mb-0 Se incorporan mensajes comerciales, promociones, información de apoyo, políticas de compra y demás contenidos que complementan la experiencia del usuario.
-              .py-3.px-4.p-md-4.p-md-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
                 h3.h5 Verificación de la propuesta
                 p.mb-0 Se revisa la coherencia entre la organización de la oferta, los recursos utilizados, la experiencia de navegación y los objetivos comerciales antes de implementar la exhibición.
 

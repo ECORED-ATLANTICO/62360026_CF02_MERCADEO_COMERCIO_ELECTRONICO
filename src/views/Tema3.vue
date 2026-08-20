@@ -12,10 +12,10 @@
       .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
         .bloque-texto-t__img.mb-0
           img(src='@/assets/curso/tema3/img_2.png', alt="Primer plano de un ojo reflejando datos, gráficos y paneles de información digital sobrepuestos")
-        .bloque-texto-t__texto.col-10.mb-0
+        .bloque-texto-t__texto.col-12.col-lg-10.mb-0
           p.mb-0 El #[i visual marketing] constituye una estrategia orientada a fortalecer la exhibición de productos mediante el uso planificado de recursos visuales, elementos gráficos y contenidos digitales que favorecen la comunicación entre las organizaciones y los usuarios. En el comercio electrónico, su aplicación contribuye a organizar la información, destacar los atributos de los productos y construir experiencias de navegación coherentes con las características del canal de venta y las necesidades del público objetivo.
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-3
         .col-8.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/tema3/img_3.png', class="img-fluid", alt="Tableta mostrando el catálogo de una tienda virtual de ropa y accesorios")
@@ -47,7 +47,7 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta color-adicional-1")
       .row(titulo="Estrategia 1")
-        .col-8.col-lg-4.mb-4.mb-lg-0
+        .col-12.col-lg-8.mb-4.mb-lg-0
           p.mb-3
             b Jerarquización visual
           p Consiste en organizar la información de acuerdo con su nivel de importancia para orientar la atención del usuario hacia los productos, promociones o mensajes prioritarios.
@@ -66,12 +66,12 @@
             li
               i.lista-ul__vineta
               | Favorece una navegación más intuitiva.
-        .col-12.col-lg-8
+        .col-12.col-md-8.col-lg-4.mb-2
           figure
             img(src='@/assets/curso/tema3/img_6.png', class="img-fluid", alt="Mano tocando una tableta con el catálogo de una tienda virtual, junto a flechas decorativas")
 
       .row(titulo="Estrategia 2")
-        .col-8.col-lg-4.mb-4.mb-lg-0
+        .col-12.col-lg-8.mb-4.mb-lg-0
           p.mb-3
             b Coherencia visual
           p Mantiene uniformidad en el uso de colores, tipografías, imágenes y estilos gráficos para fortalecer la identidad de la organización y generar una experiencia consistente en todos los canales digitales.
@@ -90,12 +90,12 @@
             li
               i.lista-ul__vineta
               | Facilita la identificación de la organización.
-        .col-12.col-lg-8
+        .col-12.col-md-8.col-lg-4.mb-2
           figure
             img(src='@/assets/curso/tema3/img_7.png', class="img-fluid", alt="Mujer revisando el catálogo de ropa de una tienda virtual en un computador portátil")
 
       .row(titulo="Estrategia 3")
-        .col-8.col-lg-4.mb-4.mb-lg-0
+        .col-12.col-lg-8.mb-4.mb-lg-0
           p.mb-3
             b Contextualización visual
           p Presenta los productos dentro de escenarios o situaciones de uso que permiten comprender mejor sus características, beneficios y aplicaciones.
@@ -114,12 +114,12 @@
             li
               i.lista-ul__vineta
               | Favorece una decisión de compra mejor informada.
-        .col-12.col-lg-8
+        .col-12.col-md-8.col-lg-4.mb-2
           figure
             img(src='@/assets/curso/tema3/img_8.png', class="img-fluid", alt="Mujer seleccionando prendas de vestir en el catálogo de una tienda virtual desde un computador portátil")
 
       .row(titulo="Estrategia 4")
-        .col-8.col-lg-4.mb-4.mb-lg-0
+        .col-12.col-lg-8.mb-4.mb-lg-0
           p.mb-3
             b Organización por categorías
           p Agrupa los productos mediante categorías y subcategorías que facilitan su localización y mejoran la estructura del catálogo digital.
@@ -138,7 +138,7 @@
             li
               i.lista-ul__vineta
               | Relaciona productos similares.
-        .col-12.col-lg-8
+        .col-12.col-md-8.col-lg-4.mb-2
           figure
             img(src='@/assets/curso/tema3/img_9.png', class="img-fluid", alt="Persona navegando un catálogo de actividades y productos en una tableta")
 
@@ -160,7 +160,7 @@
                 span Ir al recurso
                 i.fas.fa-link
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-12.col-lg-8
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-5.py-4.px-5(data-aos="zoom-in-right")
           .row.align-items-center
@@ -245,7 +245,7 @@
                 span Enlace web
                 i.fas.fa-file-code
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-12.col-lg-8
         .tarjeta.tarjeta--fondo-img-02.p-5.mb-0(data-aos="zoom-in-right")
           .tarjeta--fondo-img-02__img.d-lg-block.d-none
@@ -275,11 +275,11 @@
     .tarjeta.color-primario-10.py-4.px-5.mb-5(data-aos="zoom-in-right")
       p.mb-0.text-center A continuación, se presentan algunas de las estrategias más utilizadas para fortalecer la comunicación comercial y enriquecer la exhibición en el comercio electrónico.
 
-    .tarjeta.tarjeta--fondo-img-04.p-5.mb-5(data-aos="zoom-in-right")
-      .tarjeta.tarjeta--blanca.mb-0.py-4.px-5
-        SlyderA(tipo="b")
-          .row.align-items-center
-            .col-8.col-lg-4.mb-4.mb-lg-0
+    .tarjeta.tarjeta--fondo-img-04.p-2.p-md-4.px-3.p-lg-5.p-xl-5.mb-0(data-aos="zoom-in-right")
+      .tarjeta.tarjeta--blanca.mb-0
+        SlyderA.py-2.px-5.p-lg-3(tipo="b")
+          .row.align-items-center.py-3.px-4.p-md-4.p-lg-3.p-xl-5
+            .col-12.col-lg-4.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema3/img_14.png', class="img-fluid", alt="Mano sosteniendo un teléfono con contenido de redes sociales, junto a un computador portátil con una tienda en línea")
             .col-12.col-lg-8
@@ -293,7 +293,7 @@
                 b Ejemplo de aplicación
               p.mb-0 Una empresa de papelería creativa combinó contenidos virales, publicaciones de valor y mensajes comerciales, fortaleciendo la visibilidad de la marca y el interés por su catálogo digital.
           .row.align-items-center
-            .col-8.col-lg-4.mb-4.mb-lg-0
+            .col-12.col-lg-4.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema3/img_15.png', class="img-fluid", alt="Mujer usando una chaqueta de marca deportiva, en un ambiente exterior brumoso")
             .col-12.col-lg-8
@@ -307,7 +307,7 @@
                 b Ejemplo de aplicación
               p.mb-0 Una empresa de ropa deportiva vinculó a uno de sus diseñadores como embajador de marca para compartir contenidos sobre el proceso creativo y el uso de las prendas, fortaleciendo la cercanía con su comunidad digital.
           .row.align-items-center
-            .col-8.col-lg-4.mb-4.mb-lg-0
+            .col-12.col-lg-4.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema3/img_16.png', class="img-fluid", alt="Mujer creadora de contenido aplicándose maquillaje frente a una cámara de video")
             .col-12.col-lg-8
@@ -321,7 +321,7 @@
                 b Ejemplo de aplicación
               p.mb-0 Una empresa de cosméticos colaboró con una creadora de contenido especializada en cuidado personal para presentar una nueva línea de productos y ampliar su alcance entre audiencias afines.
           .row.align-items-center
-            .col-8.col-lg-4.mb-4.mb-lg-0
+            .col-12.col-lg-4.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema3/img_17.png', class="img-fluid", alt="Mano sosteniendo un vaso de café para llevar en un entorno urbano con luces cálidas")
             .col-12.col-lg-8
@@ -356,16 +356,16 @@
     .row.align-items-center.mb-5
       .col-12.col-lg-7.order-2.order-lg-1
         TabsA.color-acento-botones.uno(data-aos="zoom-in-right")
-          .tarjeta.color-adicional-1.p-5.h-100.d-flex.flex-column.justify-content-center(titulo="Publicidad en buscadores")
+          .tarjeta.color-adicional-1.p-4.h-100.d-flex.flex-column.justify-content-center(titulo="Publicidad en buscadores")
             p.mb-0 Utiliza anuncios asociados a palabras clave para incrementar la visibilidad de productos y servicios cuando los usuarios realizan búsquedas relacionadas con sus necesidades. Esta estrategia facilita el acceso al catálogo y favorece la captación de clientes potenciales.
 
-          .tarjeta.color-adicional-1.p-5.h-100.d-flex.flex-column.justify-content-center(titulo="Publicidad en redes sociales")
+          .tarjeta.color-adicional-1.p-4.h-100.d-flex.flex-column.justify-content-center(titulo="Publicidad en redes sociales")
             p.mb-0 Promociona productos mediante publicaciones patrocinadas y campañas segmentadas según las características e intereses del público objetivo. Su integración con contenidos visuales fortalece el reconocimiento de la marca y amplía el alcance de la comunicación comercial.
 
-          .tarjeta.color-adicional-1.p-5.h-100.d-flex.flex-column.justify-content-center(titulo="Publicidad de exhibición (Display)")
+          .tarjeta.color-adicional-1.p-4.h-100.d-flex.flex-column.justify-content-center(titulo="Publicidad de exhibición (Display)")
             p.mb-0 Emplea banners, imágenes y otros formatos gráficos publicados en sitios web y aplicaciones para incrementar la presencia de la marca y dirigir usuarios hacia el canal de comercio electrónico. Su efectividad depende de la coherencia entre el anuncio y la exhibición de los productos.
 
-          .tarjeta.color-adicional-1.p-5.h-100.d-flex.flex-column.justify-content-center(titulo="Campañas multicanal")
+          .tarjeta.color-adicional-1.p-4.h-100.d-flex.flex-column.justify-content-center(titulo="Campañas multicanal")
             p.mb-0 Integran diferentes medios digitales para comunicar una misma estrategia comercial de forma coordinada. La articulación entre buscadores, redes sociales, correo electrónico y otros canales fortalece la visibilidad de la oferta y proporciona una experiencia consistente al usuario.
       .col-12.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0
         figure
