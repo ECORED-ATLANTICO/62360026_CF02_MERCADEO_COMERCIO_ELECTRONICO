@@ -41,7 +41,7 @@
       .row.align-items-center
         .col
           p.mb-0 Desde la perspectiva de la exhibición digital, el marco legal también orienta la manera en que se utilizan imágenes, marcas, contenidos promocionales y datos de los usuarios. Por esta razón, su aplicación forma parte de la planificación comercial y contribuye a construir canales más confiables y coherentes con la promesa de la organización. El texto original ya plantea que la legalidad del comercio electrónico depende de organizar responsablemente la información, la contratación, la exhibición y la relación con el consumidor.
-        .col-2.col-lg-1.d-lg-block.d-none
+        .col-2.col-xl-1.d-lg-block.d-none
           figure
             img(src='@/assets/curso/tema5/img_4.svg', class="img-fluid")
 
@@ -85,7 +85,7 @@
         .col
           h5.etiqueta.color-acento-botones.mb-2 Ejemplo aplicado
           p.mb-0 Una empresa de artículos decorativos identificó que parte de las imágenes y textos utilizados en su tienda provenían de fuentes externas sin autorización. La organización sustituyó estos recursos por fotografías propias, redactó nuevamente las descripciones y fortaleció sus signos distintivos. Esta decisión redujo los riesgos asociados al uso indebido de contenidos y permitió construir una exhibición más coherente con su identidad comercial.
-        .col-2.col-lg-1.d-lg-block.d-none
+        .col-2.col-xl-1.d-lg-block.d-none
           figure.mt-4
             img(src='@/assets/curso/tema1/img_10.svg')
 
@@ -179,7 +179,7 @@
             .col-auto
               a.boton.color-acento-botones-70(href="https://www.youtube.com/watch?v=U8OGCJaKORY" target="_blank")
                 span Ir al recurso
-                i.fas.fa-link
+                i.fas.fa-video
 
     .row.justify-content-center.mb-3
       .col-12.col-lg-8
@@ -191,7 +191,7 @@
             .col
               h5.etiqueta.color-acento-botones.mb-2 Frase de reflexión
               p.mb-0 La legalidad en internet no debería entenderse como un obstáculo para vender, sino como una forma de honrar la confianza que hace posible la relación comercial. Una marca íntegra no solo exhibe bien sus productos; también protege lo que crea, comunica con transparencia, respeta los datos del usuario y sostiene sus promesas dentro del entorno digital.
-            .col-2.col-lg-1.d-lg-block.d-none
+            .col-2.col-xl-1.d-lg-block.d-none
               figure.mt-4
                 img(src='@/assets/curso/tema1/img_10.svg')
 

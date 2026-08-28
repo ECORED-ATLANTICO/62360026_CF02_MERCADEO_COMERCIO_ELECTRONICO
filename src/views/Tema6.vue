@@ -41,13 +41,13 @@
       .row.align-items-center
         .col
           p.mb-0 La forma en que se desarrolla la exhibición puede variar según el tipo de producto, el canal utilizado y la estrategia comercial implementada. Por esta razón, es posible identificar diferentes tipos de exhibición digital, cada uno orientado a responder a necesidades específicas de presentación, organización o promoción de la oferta. Revisaremos, a continuación, algunos tipos de exhibición digital:
-        .col-2.col-lg-1.d-lg-block.d-none
+        .col-2.col-xl-1.d-lg-block.d-none
           figure
             img(src='@/assets/curso/tema6/img_4.svg', class="img-fluid")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-7.mb-0
-        .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-4.mb-0(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0.p-0
             SlyderA.py-2.px-5(tipo="a")
               .py-3.px-4.p-md-4.p-lg-3.p-xl-5
@@ -74,7 +74,7 @@
         .col
           h5.etiqueta.color-acento-botones.mb-2 Ejemplo aplicado
           p.mb-0 Una empresa dedicada a la comercialización de artículos para el hogar organizó su tienda virtual mediante categorías permanentes, incorporó campañas estacionales para destacar productos de temporada y creó espacios ambientados para mostrar diferentes estilos de decoración. Esta organización permitió facilitar la búsqueda de productos y fortalecer la experiencia de navegación de los usuarios.
-        .col-2.col-lg-1.d-lg-block.d-none
+        .col-2.col-xl-1.d-lg-block.d-none
           figure.mt-4
             img(src='@/assets/curso/tema1/img_10.svg')
 
@@ -180,7 +180,7 @@
       .subtitulo-destacado__icono
         img(src='@/assets/curso/tema3/img_5.png', aria-hidden='true').subtitulo-destacado__img
       .subtitulo-destacado__fondo
-        h4.subtitulo-destacado__texto Proceso de representación digital para la exhibición
+        h3.subtitulo-destacado__texto Proceso de representación digital para la exhibición
 
     .row.align-items-center.mb-5
       .col-12.col-lg-7.order-2.order-lg-1
@@ -206,7 +206,7 @@
         .col
           h5.etiqueta.color-acento-botones.mb-2 Ejemplo aplicado
           p.mb-0 Una organización dedicada a la comercialización de exhibidores y mobiliario modular buscaba fortalecer la presentación de sus productos en el canal digital. Aunque disponía de fotografías, algunos clientes tenían dificultades para comprender la estructura, las dimensiones y las diferentes configuraciones de los módulos. Para mejorar la exhibición, la empresa desarrolló modelos mediante diseño CAD y posteriormente generó imágenes renderizadas que mostraban distintas perspectivas, acabados y formas de instalación. Estas representaciones complementaron las fotografías tradicionales, facilitaron la comprensión de los productos y fortalecieron la comunicación comercial dentro de la tienda virtual.
-        .col-2.col-lg-1.d-lg-block.d-none
+        .col-2.col-xl-1.d-lg-block.d-none
           figure.mt-4
             img(src='@/assets/curso/tema1/img_10.svg')
 
@@ -220,7 +220,7 @@
             .col
               h5.etiqueta.color-acento-botones.mb-2 Frase de reflexión
               p.mb-0 La representación digital fortalece la exhibición cuando transforma información técnica en recursos visuales que permiten comprender el producto antes de interactuar con él.
-            .col-2.col-lg-1.d-lg-block.d-none
+            .col-2.col-xl-1.d-lg-block.d-none
               figure.mt-4
                 img(src='@/assets/curso/tema1/img_10.svg')
 
@@ -245,7 +245,7 @@
       .subtitulo-destacado__icono
         img(src='@/assets/curso/tema3/img_5.png', aria-hidden='true').subtitulo-destacado__img
       .subtitulo-destacado__fondo
-        h4.subtitulo-destacado__texto Estrategias de customización
+        h3.subtitulo-destacado__texto Estrategias de customización
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="zoom-in-right")
@@ -278,7 +278,7 @@
             .col
               h5.etiqueta.color-acento-botones.mb-2 Frase de reflexión
               p.mb-0 Exhibir con integridad significa representar el producto con honestidad, claridad y respeto por la decisión del usuario. Una exhibición digital estratégica no manipula la percepción: organiza, explica y contextualiza la oferta para que la elección se construya sobre comprensión real y no sobre confusión visual o promesas vacías.
-            .col-2.col-lg-1.d-lg-block.d-none
+            .col-2.col-xl-1.d-lg-block.d-none
               figure.mt-4
                 img(src='@/assets/curso/tema1/img_10.svg')
 
@@ -300,12 +300,12 @@
     p.mb-4(data-aos="zoom-in-right") La construcción de una propuesta de exhibición requiere integrar aspectos relacionados con la organización del catálogo, la arquitectura de la exhibición, los recursos visuales y audiovisuales, las estrategias de comunicación, las posibilidades de personalización y las condiciones comerciales que acompañan la oferta. Esta integración permite que la presentación de los productos responda a criterios de claridad, accesibilidad y coherencia durante todo el recorrido del usuario.
     p.mb-5(data-aos="zoom-in-right") Una propuesta bien estructurada facilita la planificación de la exhibición antes de su implementación, favorece la articulación entre los diferentes recursos utilizados por la organización y contribuye a ofrecer una experiencia de navegación consistente dentro del comercio electrónico.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5.align-items-center
       .col-2.col-lg-1.d-lg-block.d-none
         figure
           img(src='@/assets/curso/tema6/img_13.svg')
       .col-12.col-lg-11
-        .tarjeta.color-primario-5.py-3.px-4.mb-5(data-aos="zoom-in-right")
+        .tarjeta.color-primario-5.py-3.px-4(data-aos="zoom-in-right")
           p.mb-0.text-center A continuación, se presenta una tabla comparativa de una propuesta de exhibición sin y con planificación estructurada:
 
     .row.justify-content-center.mb-5
@@ -369,7 +369,7 @@
         .col
           h5.etiqueta.color-acento-botones.mb-2 Ejemplo aplicado
           p.mb-0 Una empresa dedicada a la comercialización de productos para oficina diseñó una propuesta de exhibición para su nueva tienda virtual organizando el catálogo por categorías, incorporando imágenes renderizadas, recomendaciones de productos relacionados y políticas comerciales visibles. La integración de estos elementos permitió ofrecer una experiencia de navegación coherente con la identidad de la marca y facilitar la consulta de la oferta.
-        .col-2.col-lg-1.d-lg-block.d-none
+        .col-2.col-xl-1.d-lg-block.d-none
           figure.mt-4
             img(src='@/assets/curso/tema1/img_10.svg')
 
@@ -406,7 +406,7 @@
       .subtitulo-destacado__icono
         img(src='@/assets/curso/tema3/img_5.png', aria-hidden='true').subtitulo-destacado__img
       .subtitulo-destacado__fondo
-        h4.subtitulo-destacado__texto Estructura de una propuesta de exhibición digital
+        h3.subtitulo-destacado__texto Estructura de una propuesta de exhibición digital
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="zoom-in-right")
@@ -443,7 +443,7 @@
         .col
           h5.etiqueta.color-acento-botones.mb-2 Ejemplo aplicado
           p.mb-0 Antes de publicar una nueva categoría de productos tecnológicos, una organización documentó el objetivo comercial, organizó el catálogo, definió los recursos visuales, incorporó estrategias de comunicación y verificó la coherencia de la propuesta antes de su implementación. Este proceso permitió mantener una exhibición organizada y consistente dentro del canal digital.
-        .col-2.col-lg-1.d-lg-block.d-none
+        .col-2.col-xl-1.d-lg-block.d-none
           figure.mt-4
             img(src='@/assets/curso/tema1/img_10.svg')
 
@@ -461,8 +461,8 @@
                 img(src='@/assets/curso/tema2/img_14.png', class="img-fluid", alt="Mujer sonriente usando una tableta frente a un dispositivo de escaneo, con íconos de idea y objetivo")
             .col-12.col-lg-8.pe-3.pe-lg-5
               TarjetaAudio.color-secundario.mb-0(
-                texto="Estructurar una propuesta de exhibición estratégica y coherente"
-                :audio="require_src('@/assets/actividad/audio/success.mp3')"
+                texto="Propuesta estratégica de exhibición"
+                :audio="require_src('@/assets/curso/podcast/podcast_2.mp3')"
                 tiempo
               )
 
@@ -483,7 +483,7 @@
             .col
               h5.etiqueta.color-acento-botones.mb-2 Frase de reflexión
               p.mb-0 Una propuesta de exhibición con integridad no busca impresionar por acumulación de recursos, sino ordenar la oferta con criterio, claridad y coherencia. Cuando la organización piensa la exhibición como una solución estructurada, demuestra respeto por el producto, por el canal y por el usuario que necesita comprender antes de decidir.
-            .col-2.col-lg-1.d-lg-block.d-none
+            .col-2.col-xl-1.d-lg-block.d-none
               figure.mt-4
                 img(src='@/assets/curso/tema1/img_10.svg')
 </template>

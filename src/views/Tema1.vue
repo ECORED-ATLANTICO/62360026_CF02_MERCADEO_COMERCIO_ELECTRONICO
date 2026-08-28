@@ -27,7 +27,7 @@
       Separador
 
       #t_1_1.titulo-segundo.color-acento-contenido
-        .h2(data-aos="fade-right") 1.1 Comercio electrónico
+        .h2(data-aos="fade-right") 1.1 Concepto
       .mb-0
 
       p.mb-5(data-aos="fade-up") El producto representa la unidad básica de intercambio dentro de los procesos comerciales y constituye el elemento sobre el cual se articulan las decisiones de exhibición, clasificación, comunicación y comercialización en un entorno digital. En comercio electrónico, su relevancia no depende únicamente de su existencia física o intangible, sino de la manera en que es definido, presentado y asociado a una propuesta de valor que responda a las necesidades del mercado y a las condiciones del canal.
@@ -39,13 +39,13 @@
             img(src="@/assets/curso/tema1/img_4.svg", class="img-fluid")
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-4.mb-sm-0
+            .col-12.col-lg.mb-4.mb-lg-0
               h4.mb-3 El producto
               p.mb-0 Lo invitamos a consultar el siguiente recurso educativo, a través del cual podrá profundizar el concepto de producto desde una perspectiva de mercadeo, retomando la definición de la American Marketing Association, la cual explica que un producto no se limita a bienes físicos, sino que también incluye servicios, ideas, experiencias y combinaciones de elementos tangibles e intangibles.
             .col-auto
               a.boton.color-acento-botones-70(href="https://www.youtube.com/watch?v=LN1eBcD5H4M" target="_blank")
                 span Ir al recurso
-                i.fas.fa-link
+                i.fas.fa-video
 
     .fondo-decorativo.fondo-decorativo--tema1-2
 
@@ -72,7 +72,7 @@
           .tabla-a.mb-5(data-aos="flip-left")
             table
               caption
-                p <b>Nota.</b> SENA, (2026).
+                p.mb-0 <b>Nota.</b> SENA, (2026).
               thead
                 tr
                   th.col-auto.col-lg-4 Característica
@@ -126,7 +126,7 @@
       |    Requerimientos de exhibición en comercio electrónico
     figure.mb-4(data-aos="flip-left")
       img(src='@/assets/curso/tema1/img_12.svg', class="img-fluid d-none d-lg-block", alt="Diagrama circular con los cuatro requerimientos de exhibición: información comercial, recursos visuales, coherencia de la exhibición y organización del catálogo").mb-5
-      img(src='@/assets/curso/tema1/img_13.svg', class="img-fluid d-block d-lg-none", alt="Diagrama circular con los cuatro requerimientos de exhibición: información comercial, recursos visuales, coherencia de la exhibición y organización del catálogo").mb-5
+      img(src='@/assets/curso/tema1/img_13.png', class="img-fluid d-block d-lg-none", alt="Diagrama circular con los cuatro requerimientos de exhibición: información comercial, recursos visuales, coherencia de la exhibición y organización del catálogo").mb-5
       figcaption <b>Nota.</b> SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5

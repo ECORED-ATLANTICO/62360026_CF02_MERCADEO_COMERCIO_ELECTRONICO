@@ -43,101 +43,105 @@
       .subtitulo-destacado__icono
         img(src='@/assets/curso/tema3/img_5.png', aria-hidden='true').subtitulo-destacado__img
       .subtitulo-destacado__fondo
-        h4.subtitulo-destacado__texto Estrategias del #[i visual marketing]
+        h3.subtitulo-destacado__texto Estrategias del #[i visual marketing]
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta color-adicional-1")
       .row(titulo="Estrategia 1")
         .col-12.col-lg-8.mb-4.mb-lg-0
-          p.mb-3
-            b Jerarquización visual
-          p Consiste en organizar la información de acuerdo con su nivel de importancia para orientar la atención del usuario hacia los productos, promociones o mensajes prioritarios.
-          p.mb-2
-            b Características
-          ul.lista-ul
-            li
-              i.lista-ul__vineta
-              | Destaca la información más relevante.
-            li
-              i.lista-ul__vineta
-              | Organiza el recorrido visual dentro del catálogo.
-            li
-              i.lista-ul__vineta
-              | Facilita la identificación de promociones y novedades.
-            li
-              i.lista-ul__vineta
-              | Favorece una navegación más intuitiva.
+          div.ms-lg-5
+            p.mb-3
+              b Jerarquización visual
+            p Consiste en organizar la información de acuerdo con su nivel de importancia para orientar la atención del usuario hacia los productos, promociones o mensajes prioritarios.
+            p.mb-2
+              b Características
+            ul.lista-ul
+              li.d-flex
+                i.lista-ul__vineta
+                | Destaca la información más relevante.
+              li.d-flex
+                i.lista-ul__vineta
+                | Organiza el recorrido visual dentro del catálogo.
+              li.d-flex
+                i.lista-ul__vineta
+                | Facilita la identificación de promociones y novedades.
+              li.d-flex
+                i.lista-ul__vineta
+                | Favorece una navegación más intuitiva.
         .col-12.col-md-8.col-lg-4.mb-2
           figure
             img(src='@/assets/curso/tema3/img_6.png', class="img-fluid", alt="Mano tocando una tableta con el catálogo de una tienda virtual, junto a flechas decorativas")
 
       .row(titulo="Estrategia 2")
         .col-12.col-lg-8.mb-4.mb-lg-0
-          p.mb-3
-            b Coherencia visual
-          p Mantiene uniformidad en el uso de colores, tipografías, imágenes y estilos gráficos para fortalecer la identidad de la organización y generar una experiencia consistente en todos los canales digitales.
-          p.mb-2
-            b Características
-          ul.lista-ul
-            li
-              i.lista-ul__vineta
-              | Conserva una identidad gráfica uniforme.
-            li
-              i.lista-ul__vineta
-              | Refuerza el reconocimiento de la marca.
-            li
-              i.lista-ul__vineta
-              | Genera confianza en los usuarios.
-            li
-              i.lista-ul__vineta
-              | Facilita la identificación de la organización.
+          div.ms-lg-5
+            p.mb-3
+              b Coherencia visual
+            p Mantiene uniformidad en el uso de colores, tipografías, imágenes y estilos gráficos para fortalecer la identidad de la organización y generar una experiencia consistente en todos los canales digitales.
+            p.mb-2
+              b Características
+            ul.lista-ul
+              li.d-flex
+                i.lista-ul__vineta
+                | Conserva una identidad gráfica uniforme.
+              li.d-flex
+                i.lista-ul__vineta
+                | Refuerza el reconocimiento de la marca.
+              li.d-flex
+                i.lista-ul__vineta
+                | Genera confianza en los usuarios.
+              li.d-flex
+                i.lista-ul__vineta
+                | Facilita la identificación de la organización.
         .col-12.col-md-8.col-lg-4.mb-2
           figure
             img(src='@/assets/curso/tema3/img_7.png', class="img-fluid", alt="Mujer revisando el catálogo de ropa de una tienda virtual en un computador portátil")
 
       .row(titulo="Estrategia 3")
         .col-12.col-lg-8.mb-4.mb-lg-0
-          p.mb-3
-            b Contextualización visual
-          p Presenta los productos dentro de escenarios o situaciones de uso que permiten comprender mejor sus características, beneficios y aplicaciones.
-          p.mb-2
-            b Características
-          ul.lista-ul
-            li
-              i.lista-ul__vineta
-              | Relaciona el producto con situaciones reales.
-            li
-              i.lista-ul__vineta
-              | Facilita la comprensión de sus beneficios.
-            li
-              i.lista-ul__vineta
-              | Incrementa el interés por la oferta.
-            li
-              i.lista-ul__vineta
-              | Favorece una decisión de compra mejor informada.
+          div.ms-lg-5
+            p.mb-3
+              b Contextualización visual
+            p Presenta los productos dentro de escenarios o situaciones de uso que permiten comprender mejor sus características, beneficios y aplicaciones.
+            p.mb-2
+              b Características
+            ul.lista-ul
+              li.d-flex
+                i.lista-ul__vineta
+                | Relaciona el producto con situaciones reales.
+              li.d-flex
+                i.lista-ul__vineta
+                | Facilita la comprensión de sus beneficios.
+              li.d-flex
+                i.lista-ul__vineta
+                | Incrementa el interés por la oferta.
+              li.d-flex
+                i.lista-ul__vineta
+                | Favorece una decisión de compra mejor informada.
         .col-12.col-md-8.col-lg-4.mb-2
           figure
             img(src='@/assets/curso/tema3/img_8.png', class="img-fluid", alt="Mujer seleccionando prendas de vestir en el catálogo de una tienda virtual desde un computador portátil")
 
       .row(titulo="Estrategia 4")
         .col-12.col-lg-8.mb-4.mb-lg-0
-          p.mb-3
-            b Organización por categorías
-          p Agrupa los productos mediante categorías y subcategorías que facilitan su localización y mejoran la estructura del catálogo digital.
-          p.mb-2
-            b Características
-          ul.lista-ul
-            li
-              i.lista-ul__vineta
-              | Ordena la oferta comercial.
-            li
-              i.lista-ul__vineta
-              | Facilita la búsqueda de productos.
-            li
-              i.lista-ul__vineta
-              | Mejora la navegación.
-            li
-              i.lista-ul__vineta
-              | Relaciona productos similares.
+          div.ms-lg-5
+            p.mb-3
+              b Organización por categorías
+            p Agrupa los productos mediante categorías y subcategorías que facilitan su localización y mejoran la estructura del catálogo digital.
+            p.mb-2
+              b Características
+            ul.lista-ul
+              li.d-flex
+                i.lista-ul__vineta
+                | Ordena la oferta comercial.
+              li.d-flex
+                i.lista-ul__vineta
+                | Facilita la búsqueda de productos.
+              li.d-flex
+                i.lista-ul__vineta
+                | Mejora la navegación.
+              li.d-flex
+                i.lista-ul__vineta
+                | Relaciona productos similares.
         .col-12.col-md-8.col-lg-4.mb-2
           figure
             img(src='@/assets/curso/tema3/img_9.png', class="img-fluid", alt="Persona navegando un catálogo de actividades y productos en una tableta")
@@ -158,11 +162,11 @@
             .col-auto
               a.boton.color-acento-botones-70(href="https://www.youtube.com/watch?v=H2Z9w6EP15M&utm_source=chatgpt.com" target="_blank")
                 span Ir al recurso
-                i.fas.fa-link
+                i.fas.fa-video
 
     .row.justify-content-center.mb-3
       .col-12.col-lg-8
-        .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-5.py-4.px-5(data-aos="zoom-in-right")
+        .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-3.py-4.px-5(data-aos="zoom-in-right")
           .row.align-items-center
             .col-2.col-lg-3.d-lg-block.d-none
               figure
@@ -170,7 +174,7 @@
             .col
               h5.etiqueta.color-acento-contenido.mb-2 Clave estratégica
               p.mb-0 Una estrategia de #[i visual marketing] no se limita a decidir qué se ve bonito; define cómo la organización usa la visualidad para ordenar la oferta, dirigir la atención y fortalecer la relación entre producto, canal y experiencia de compra.
-            .col-2.col-lg-1.d-lg-block.d-none
+            .col-2.col-xl-1.d-lg-block.d-none
               figure.mt-4
                 img(src='@/assets/curso/tema1/img_10.svg')
 
@@ -202,7 +206,7 @@
       .subtitulo-destacado__icono
         img(src='@/assets/curso/tema3/img_5.png', aria-hidden='true').subtitulo-destacado__img
       .subtitulo-destacado__fondo
-        h4.subtitulo-destacado__texto Impacto del #[i branding] en la exhibición digital
+        h3.subtitulo-destacado__texto Impacto del #[i branding] en la exhibición digital
 
     .row.align-items-center.mb-5
       .col-12.col-lg-7.order-2.order-lg-1
@@ -277,7 +281,7 @@
 
     .tarjeta.tarjeta--fondo-img-04.p-2.p-md-4.px-3.p-lg-5.p-xl-5.mb-0(data-aos="zoom-in-right")
       .tarjeta.tarjeta--blanca.mb-0
-        SlyderA.py-2.px-5.p-lg-3(tipo="b")
+        SlyderA.py-2.px-3.p-lg-3(tipo="b")
           .row.align-items-center.py-3.px-4.p-md-4.p-lg-3.p-xl-5
             .col-12.col-lg-4.mb-4.mb-lg-0
               figure
@@ -362,7 +366,7 @@
           .tarjeta.color-adicional-1.p-4.h-100.d-flex.flex-column.justify-content-center(titulo="Publicidad en redes sociales")
             p.mb-0 Promociona productos mediante publicaciones patrocinadas y campañas segmentadas según las características e intereses del público objetivo. Su integración con contenidos visuales fortalece el reconocimiento de la marca y amplía el alcance de la comunicación comercial.
 
-          .tarjeta.color-adicional-1.p-4.h-100.d-flex.flex-column.justify-content-center(titulo="Publicidad de exhibición (Display)")
+          .tarjeta.color-adicional-1.p-4.h-100.d-flex.flex-column.justify-content-center(titulo="Publicidad de exhibición (<em>Display</em>)")
             p.mb-0 Emplea banners, imágenes y otros formatos gráficos publicados en sitios web y aplicaciones para incrementar la presencia de la marca y dirigir usuarios hacia el canal de comercio electrónico. Su efectividad depende de la coherencia entre el anuncio y la exhibición de los productos.
 
           .tarjeta.color-adicional-1.p-4.h-100.d-flex.flex-column.justify-content-center(titulo="Campañas multicanal")
@@ -372,7 +376,7 @@
           img(src='@/assets/curso/tema3/img_19.png', class="img-fluid", alt="Carrito de compras con bolsas de colores sobre una tableta, representando publicidad digital")
 
     .row.align-items-center.mb-4(data-aos="zoom-in-right")
-      .col-2.col-lg-1.d-lg-block.d-none
+      .col-2.col-xl-1.d-lg-block.d-none
         figure
           img(src='@/assets/curso/tema3/img_20.svg', class="img-fluid")
       .col
@@ -388,7 +392,7 @@
             .col
               h5.etiqueta.color-acento-botones.mb-2 Frase de reflexión
               p.mb-0 La forma en que una marca se muestra al mundo también habla de su integridad: cuando la exhibición comunica con honestidad, coherencia y respeto por la experiencia del usuario, la estrategia visual deja de ser solo persuasión y se convierte en una expresión responsable de la promesa comercial.
-            .col-2.col-lg-1.d-lg-block.d-none
+            .col-2.col-xl-1.d-lg-block.d-none
               figure.mt-4
                 img(src='@/assets/curso/tema1/img_10.svg')
 </template>

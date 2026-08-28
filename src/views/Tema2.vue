@@ -17,7 +17,7 @@
 
       .tarjeta.color-primario-5.py-4.px-5(data-aos="zoom-in-right")
         .row.align-items-center
-          .col-2.col-lg-1.d-lg-block.d-none
+          .col-2.col-xl-1.d-lg-block.d-none
             figure
               img(src='@/assets/curso/tema2/img_3.svg', class="img-fluid")
           .col
@@ -46,7 +46,7 @@
 
     .tarjeta.color-primario-5.py-4.px-5.mb-5(data-aos="zoom-in-right")
       .row.align-items-center
-        .col-2.col-lg-1.d-lg-block.d-none
+        .col-2.col-xl-1.d-lg-block.d-none
           figure
             img(src='@/assets/curso/tema2/img_3.svg', class="img-fluid")
         .col
@@ -86,7 +86,7 @@
             img(src="@/assets/curso/tema2/img_7.svg", class="img-fluid")
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-4.mb-sm-0
+            .col-12.col-lg.mb-4.mb-lg-0
               h4.mb-3 Página oficial de Herbalife latino
               p.mb-0 Lo invitamos a visitar el siguiente enlace en donde podrá apreciar un ejemplo de la compañía Herbalife, de cómo implementa la tienda en redes.
             .col-auto
@@ -188,7 +188,7 @@
           .col
             h5.etiqueta.color-acento-botones.mb-2 Ejemplo aplicado
             p.mb-0 Una empresa dedicada a la comercialización de artículos deportivos desea ampliar sus ventas mediante canales digitales. Después de analizar las características de sus productos y el comportamiento de sus clientes, decide implementar una tienda virtual para administrar su catálogo, complementar la estrategia con un #[i marketplace] para aumentar la visibilidad y utilizar una tienda en redes sociales para fortalecer la interacción con los usuarios. La combinación de estos canales permite ampliar el alcance de la oferta y responder a diferentes necesidades comerciales.
-          .col-2.col-lg-1.d-lg-block.d-none
+          .col-2.col-xl-1.d-lg-block.d-none
             figure.mt-4
               img(src='@/assets/curso/tema1/img_10.svg')
 
@@ -204,8 +204,8 @@
                   img(src='@/assets/curso/tema2/img_14.png', class="img-fluid", alt="Mujer sonriente usando una tableta frente a un dispositivo de escaneo, con íconos de idea y objetivo")
               .col-12.col-lg-8.pe-3.pe-lg-5
                 TarjetaAudio.color-secundario.mb-0(
-                  texto="Eficiente y efectiva gestión de canales de comercio electrónico"
-                  :audio="require_src('@/assets/actividad/audio/success.mp3')"
+                  texto="Gestión estratégica de canales"
+                  :audio="require_src('@/assets/curso/podcast/podcast_1.mp3')"
                   tiempo
                 )
 

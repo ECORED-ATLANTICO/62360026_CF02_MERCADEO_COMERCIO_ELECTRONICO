@@ -45,7 +45,7 @@
       .subtitulo-destacado__icono
         img(src='@/assets/curso/tema3/img_5.png', aria-hidden='true').subtitulo-destacado__img
       .subtitulo-destacado__fondo
-        h4.subtitulo-destacado__texto Tipos de contenidos audiovisuales en comercio electrónico
+        h3.subtitulo-destacado__texto Tipos de contenidos audiovisuales en comercio electrónico
 
     .row.justify-content-center.cursor-pointer.mb-5
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0(data-aos="zoom-in-right")
@@ -142,7 +142,7 @@
         .col
           h5.etiqueta.color-acento-botones.mb-2 Ejemplo aplicado
           p.mb-0 Una empresa de artículos para estudio y oficina reorganizó sus fotografías y videos después de identificar que el catálogo presentaba recursos desiguales entre categorías. Definió qué productos requerían demostración, ambientación o imágenes de presentación y estableció criterios comunes de estilo y ubicación. Esta planificación permitió mejorar la consistencia del catálogo y facilitar la consulta de la oferta.
-        .col-2.col-lg-1.d-lg-block.d-none
+        .col-2.col-xl-1.d-lg-block.d-none
           figure.mt-4
             img(src='@/assets/curso/tema1/img_10.svg')
     Separador

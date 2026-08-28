@@ -36,7 +36,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Productos',
+        titulo: 'Productos y requerimientos de exhibición',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -94,7 +94,7 @@ export default {
           },
           {
             numero: '3.2',
-            titulo: 'Branding e identidad visual',
+            titulo: '<em>Branding</em> e identidad visual',
             hash: 't_3_2',
           },
           {
