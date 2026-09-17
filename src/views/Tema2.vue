@@ -60,24 +60,19 @@
         .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-4.mb-0(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0.p-0
             SlyderA.py-2.px-5(tipo="a")
+              
               .py-3.px-4.p-md-4.p-lg-3.p-xl-5
-                h3.h5 Atención al cliente
-                p.mb-0 Brinda orientación y acompañamiento antes, durante y después de la compra, resolviendo consultas, suministrando información oportuna y ofreciendo soluciones que fortalecen la confianza, la satisfacción y la relación con el cliente.
+                h3.h5 Sitio web o tienda virtual
+                p.mb-0 Canal administrado por la organización para exhibir y comercializar productos o servicios. Permite personalizar el diseño, organizar el catálogo y controlar la experiencia de navegación y compra.
               .py-3.px-4.p-md-4.p-lg-3.p-xl-5
-                h3.h5 Administración de pedidos
-                p.mb-0 Coordina el registro, procesamiento, preparación, despacho y entrega de los pedidos, garantizando información actualizada, cumplimiento de los tiempos establecidos y control de cada etapa del proceso logístico.
+                h3.h5 <em>Marketplace</em>
+                p.mb-0 Plataforma que reúne múltiples vendedores en un mismo entorno digital. Facilita el acceso a una amplia base de clientes y aumenta la visibilidad de la oferta, aunque las condiciones de comercialización dependen de las políticas de la plataforma.
               .py-3.px-4.p-md-4.p-lg-3.p-xl-5
-                h3.h5 Soporte técnico
-                p.mb-0 Atiende inconvenientes relacionados con la plataforma, los medios de pago, el acceso a la cuenta o el funcionamiento de los servicios digitales, asegurando una solución ágil que facilite la continuidad de la compra.
+                h3.h5 Tienda en redes sociales
+                p.mb-0 Canal que integra funciones de exhibición e interacción dentro de plataformas sociales. Favorece la comunicación con los usuarios y permite promocionar productos mediante contenidos, recomendaciones y herramientas de compra.
               .py-3.px-4.p-md-4.p-lg-3.p-xl-5
-                h3.h5 Gestión de reclamos
-                p.mb-0 Recibe, analiza y resuelve las inconformidades presentadas por los clientes, aplicando procedimientos establecidos que permitan ofrecer respuestas oportunas, soluciones adecuadas y acciones para prevenir situaciones similares.
-              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
-                h3.h5 Seguimiento de solicitudes
-                p.mb-0 Controla el estado de consultas, requerimientos, cambios, devoluciones y demás solicitudes, manteniendo comunicación permanente con el cliente hasta confirmar la atención y el cierre satisfactorio del proceso.
-              .py-3.px-4.p-md-4.p-lg-3.p-xl-5
-                h3.h5 Mejora continua de la experiencia de compra
-                p.mb-0 Evalúa resultados, recopila opiniones y analiza indicadores para identificar oportunidades de mejora que optimicen los procesos, incrementen la satisfacción del cliente y fortalezcan la calidad del servicio ofrecido.
+                h3.h5 Canal complementario
+                p.mb-0 Espacios digitales que apoyan la estrategia comercial, como aplicaciones móviles, mensajería instantánea o catálogos electrónicos. Su función consiste en ampliar los puntos de contacto con los usuarios y fortalecer la experiencia de compra.
 
     .tarjeta.color-acento-botones-5.py-4.px-5.mb-5(data-aos="zoom-in-right")
       .row.justify-content-around.align-items-center
@@ -91,8 +86,7 @@
               p.mb-0 Lo invitamos a visitar el siguiente enlace en donde podrá apreciar un ejemplo de la compañía Herbalife, de cómo implementa la tienda en redes.
             .col-auto
               a.boton.color-acento-botones-70(href="https://www.instagram.com/herbalifelatino/" target="_blank")
-                span Enlace web
-                i.fas.fa-file-code
+                span Ir al recurso
 
     .tarjeta.color-primario-10.py-3.px-4.mb-5(data-aos="zoom-in-right")
       p.mb-0.text-center Adicionalmente, le presentamos una tabla con los principales aportes de las tiendas en redes en el #[i visual marketing]:
@@ -204,7 +198,7 @@
                   img(src='@/assets/curso/tema2/img_14.png', class="img-fluid", alt="Mujer sonriente usando una tableta frente a un dispositivo de escaneo, con íconos de idea y objetivo")
               .col-12.col-lg-8.pe-3.pe-lg-5
                 TarjetaAudio.color-secundario.mb-0(
-                  texto="Gestión estratégica de canales"
+                  texto="<span style='font-style: normal !important;'>Gestión estratégica de canales"
                   :audio="require_src('@/assets/curso/podcast/podcast_1.mp3')"
                   tiempo
                 )
@@ -212,7 +206,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-8.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
           figure
-            img(src='@/assets/curso/tema2/img_15.png', class="img-fluid", alt="Mano tocando la pantalla de una tableta con íconos holográficos de carritos de compra y aplicaciones, sobre un mosaico de íconos de apps")
+            img(src='@/assets/curso/tema2/img_15.png', class="img-fluid", alt="")
         .col-12.col-lg-8
           p.mb-4(data-aos="zoom-in-right") Los canales de comercio electrónico constituyen el medio mediante el cual las organizaciones presentan su oferta y establecen relaciones con los usuarios en entornos digitales. La selección del canal debe responder a las características del producto, los objetivos comerciales y las necesidades del público objetivo, garantizando que la exhibición favorezca la navegación, la consulta de información y la experiencia de compra.
           .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-2.py-4.px-5(data-aos="zoom-in-right")

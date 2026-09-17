@@ -12,7 +12,7 @@
         img(src='@/assets/curso/tema4/img_1.png', alt="Cámara fotográfica en primer plano con íconos holográficos de comunicación digital sobrepuestos")
       .bloque-texto-t__texto.col-12.col-lg-10.mb-0
         p.mb-0 Los recursos audiovisuales constituyen un apoyo estratégico para la exhibición de productos en los entornos de comercio electrónico, ya que permiten ampliar la información disponible, contextualizar la oferta y comunicar atributos que pueden resultar difíciles de explicar únicamente mediante descripciones textuales. Su utilización facilita la comprensión de los productos y contribuye a generar experiencias de interacción más completas dentro de los diferentes canales digitales.
-        p.mb-0 En el contexto del #[i mercadeo visual], estos recursos deben responder a una intención comercial y comunicativa definida.
+        p.mb-0 En el contexto del mercadeo visual, estos recursos deben responder a una intención comercial y comunicativa definida.
 
     .row.align-items-center.mb-3
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")

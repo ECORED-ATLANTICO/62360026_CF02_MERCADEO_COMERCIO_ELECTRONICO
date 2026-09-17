@@ -156,13 +156,13 @@
         .col
           .row.justify-content-between.align-items-center
             .col-12.col-md.mb-4.mb-md-0
-              h4.mb-3 #[i Visual merchandising]: estrategia.
-              p.mb-3 Lo invitamos a consultar el siguiente recurso educativo, el cual presenta el visual merchandising como una estrategia orientada a organizar visualmente los productos y a fortalecer su capacidad de atracción dentro de los espacios de venta.
-              p.mb-0 Si bien se aborda el tema desde una perspectiva general de exhibición comercial, resulta útil porque permite comprender la relación entre disposición visual, percepción del producto y comportamiento del consumidor, elementos que pueden trasladarse al análisis del visual marketing en contextos de comercio electrónico.
+              h4.mb-3 #[i Visual merchandising]: estrategia
+              p.mb-3 Lo invitamos a consultar el siguiente recurso educativo, el cual presenta el <em>visual merchandising</em> como una estrategia orientada a organizar visualmente los productos y a fortalecer su capacidad de atracción dentro de los espacios de venta.
+              p.mb-0 Si bien se aborda el tema desde una perspectiva general de exhibición comercial, resulta útil porque permite comprender la relación entre disposición visual, percepción del producto y comportamiento del consumidor, elementos que pueden trasladarse al análisis del <em>visual marketing</em> en contextos de comercio electrónico.
             .col-auto
               a.boton.color-acento-botones-70(href="https://www.youtube.com/watch?v=H2Z9w6EP15M&utm_source=chatgpt.com" target="_blank")
                 span Ir al recurso
-                i.fas.fa-video
+                
 
     .row.justify-content-center.mb-3
       .col-12.col-lg-8
@@ -246,8 +246,7 @@
               p.mb-0 Acceda al siguiente recurso de apoyo para ampliar la información sobre el #[i branding]. Este contenido explica cómo la gestión estratégica de una marca contribuye a construir una identidad diferenciada, fortalecer la relación con los consumidores y consolidar su posicionamiento en los entornos comerciales.
             .col-auto
               a.boton.color-acento-botones-70(href="https://www.mediasource.mx/blog/branding" target="_blank")
-                span Enlace web
-                i.fas.fa-file-code
+                span Ir al recurso
 
     .row.justify-content-center.mb-3
       .col-12.col-lg-8
@@ -367,7 +366,7 @@
             p.mb-0 Promociona productos mediante publicaciones patrocinadas y campañas segmentadas según las características e intereses del público objetivo. Su integración con contenidos visuales fortalece el reconocimiento de la marca y amplía el alcance de la comunicación comercial.
 
           .tarjeta.color-adicional-1.p-4.h-100.d-flex.flex-column.justify-content-center(titulo="Publicidad de exhibición (<em>Display</em>)")
-            p.mb-0 Emplea banners, imágenes y otros formatos gráficos publicados en sitios web y aplicaciones para incrementar la presencia de la marca y dirigir usuarios hacia el canal de comercio electrónico. Su efectividad depende de la coherencia entre el anuncio y la exhibición de los productos.
+            p.mb-0 Emplea <em>banners</em>, imágenes y otros formatos gráficos publicados en sitios web y aplicaciones para incrementar la presencia de la marca y dirigir usuarios hacia el canal de comercio electrónico. Su efectividad depende de la coherencia entre el anuncio y la exhibición de los productos.
 
           .tarjeta.color-adicional-1.p-4.h-100.d-flex.flex-column.justify-content-center(titulo="Campañas multicanal")
             p.mb-0 Integran diferentes medios digitales para comunicar una misma estrategia comercial de forma coordinada. La articulación entre buscadores, redes sociales, correo electrónico y otros canales fortalece la visibilidad de la oferta y proporciona una experiencia consistente al usuario.

@@ -45,7 +45,7 @@
             .col-auto
               a.boton.color-acento-botones-70(href="https://www.youtube.com/watch?v=LN1eBcD5H4M" target="_blank")
                 span Ir al recurso
-                i.fas.fa-video
+                
 
     .fondo-decorativo.fondo-decorativo--tema1-2
 

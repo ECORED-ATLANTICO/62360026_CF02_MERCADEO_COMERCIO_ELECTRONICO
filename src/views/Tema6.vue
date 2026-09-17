@@ -458,10 +458,10 @@
           .row.align-items-center
             .col-12.col-lg-4.mb-3.mb-lg-0.pb-0.pt-4.ps-5.d-lg-block.d-none
               figure
-                img(src='@/assets/curso/tema2/img_14.png', class="img-fluid", alt="Mujer sonriente usando una tableta frente a un dispositivo de escaneo, con íconos de idea y objetivo")
+                img(src='@/assets/curso/tema2/img_14.png', class="img-fluid", alt="")
             .col-12.col-lg-8.pe-3.pe-lg-5
               TarjetaAudio.color-secundario.mb-0(
-                texto="Propuesta estratégica de exhibición"
+                texto="<span style='font-style: normal !important;'>Propuesta estratégica de exhibición"
                 :audio="require_src('@/assets/curso/podcast/podcast_2.mp3')"
                 tiempo
               )

@@ -58,7 +58,6 @@
             .col-auto
               a.boton.color-acento-botones-70(href="https://www.cerlatam.com/wp-content/uploads/2021/07/Borrador-Gui%CC%81a-de-Comercio-Electro%CC%81nico-25.06.2021.pdf" target="_blank")
                 span Ir al recurso
-                i.fas.fa-link
 
     Separador
 
@@ -179,7 +178,7 @@
             .col-auto
               a.boton.color-acento-botones-70(href="https://www.youtube.com/watch?v=U8OGCJaKORY" target="_blank")
                 span Ir al recurso
-                i.fas.fa-video
+             
 
     .row.justify-content-center.mb-3
       .col-12.col-lg-8

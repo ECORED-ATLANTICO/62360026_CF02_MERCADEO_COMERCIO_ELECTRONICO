@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="El componente formativo Exhibición digital de productos aborda los elementos que intervienen en la presentación y comercialización de productos en entornos electrónicos. Integra aspectos relacionados con productos, canales digitales, visual marketing, contenidos audiovisuales, publicidad digital, marco legal, políticas comerciales y estrategias de exhibición. Estos contenidos permiten al aprendiz comprender la relación entre los recursos visuales, la información comercial y las características del canal de venta, así como reconocer requerimientos de presentación y estructurar propuestas de exhibición coherentes que contribuyan a fortalecer la experiencia de compra y la gestión comercial en el comercio electrónico.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
