@@ -125,8 +125,8 @@
       h5 Figura 1.
       |    Requerimientos de exhibición en comercio electrónico
     figure.mb-4(data-aos="flip-left")
-      img(src='@/assets/curso/tema1/img_12.svg', class="img-fluid d-none d-lg-block", alt="Diagrama circular con los cuatro requerimientos de exhibición: información comercial, recursos visuales, coherencia de la exhibición y organización del catálogo").mb-5
-      img(src='@/assets/curso/tema1/img_13.png', class="img-fluid d-block d-lg-none", alt="Diagrama circular con los cuatro requerimientos de exhibición: información comercial, recursos visuales, coherencia de la exhibición y organización del catálogo").mb-5
+      img(src='@/assets/curso/tema1/img_12.svg', class="img-fluid d-none d-lg-block", alt="La figura 1 presenta una infografía interactiva sobre los requerimientos de exhibición en comercio electrónico. La información se organiza en cuatro componentes: información comercial, recursos visuales, organización del catálogo y coherencia de la exhibición. Cada elemento contribuye a estructurar la oferta mediante información clara sobre los productos, recursos gráficos pertinentes, una clasificación organizada del catálogo y una presentación coherente con las características del producto y los objetivos comerciales, favoreciendo la comprensión de la oferta y la experiencia de navegación.").mb-5
+      img(src='@/assets/curso/tema1/img_13.png', class="img-fluid d-block d-lg-none", alt="La figura 1 presenta una infografía interactiva sobre los requerimientos de exhibición en comercio electrónico. La información se organiza en cuatro componentes: información comercial, recursos visuales, organización del catálogo y coherencia de la exhibición. Cada elemento contribuye a estructurar la oferta mediante información clara sobre los productos, recursos gráficos pertinentes, una clasificación organizada del catálogo y una presentación coherente con las características del producto y los objetivos comerciales, favoreciendo la comprensión de la oferta y la experiencia de navegación.").mb-5
       figcaption <b>Nota.</b> SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5
