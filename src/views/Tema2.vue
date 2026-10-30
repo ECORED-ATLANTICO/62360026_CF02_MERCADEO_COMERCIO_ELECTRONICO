@@ -50,12 +50,13 @@
           figure
             img(src='@/assets/curso/tema2/img_3.svg', class="img-fluid")
         .col
-          p.mb-0 Los tipos de canales de comercio electrónico corresponden a las distintas formas en que una organización puede estructurar su presencia comercial en entornos digitales. Esta diferenciación es relevante porque no todos los canales operan bajo la misma lógica de exhibición, interacción o circulación de la oferta, cada tipo de canal establece condiciones particulares para la presentación de productos, la relación con el usuario y la forma en que se gestiona el proceso comercial, razón por la cual su elección influye directamente en la estrategia de visualización y venta.
+          P Los tipos de canales de comercio electrónico representan las diferentes formas en que una organización estructura su presencia comercial en los entornos digitales. Esta clasificación es fundamental, ya que cada canal opera bajo una lógica propia de exhibición de productos, interacción con el usuario y circulación de la oferta comercial.
+          p.mb-0 Por esta razón, la elección de un canal específico establece condiciones particulares para la gestión de todo el proceso de negocio. Al mismo tiempo, influye de manera directa en el diseño de las estrategias de venta y en el desarrollo del mercadeo visual (<em>visual marketing</em>).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema2/img_5.png', class="img-fluid", alt="Computador portátil mostrando el catálogo de una tienda virtual en línea")
+          img(src='@/assets/curso/tema2/img_5.png', class="img-fluid", alt="")
       .col-12.col-lg-7.mb-0
         .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-4.mb-0(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0.p-0
@@ -83,7 +84,7 @@
           .row.justify-content-between.align-items-center
             .col-12.col-lg.mb-4.mb-lg-0
               h4.mb-3 Página oficial de Herbalife latino
-              p.mb-0 Lo invitamos a visitar el siguiente enlace en donde podrá apreciar un ejemplo de la compañía Herbalife, de cómo implementa la tienda en redes.
+              p.mb-0 Lo invitamos a hacer clic en el siguiente enlace para observar un ejemplo de la utilización de redes sociales como canal de exhibición y promoción de productos. 
             .col-auto
               a.boton.color-acento-botones-70(href="https://www.instagram.com/herbalifelatino/" target="_blank")
                 span Ir al recurso
@@ -98,8 +99,6 @@
           |  Aportes de la tienda en redes al #[i visual marketing]
         .tabla-a.mb-5(data-aos="flip-left")
           table
-            caption
-              p <b>Nota.</b> SENA, (2026).
             thead
               tr
                 th.col-auto.col-lg-4 Aporte
@@ -187,7 +186,7 @@
               img(src='@/assets/curso/tema1/img_10.svg')
 
       .tarjeta.color-secundario-5.py-3.px-4.mb-5(data-aos="zoom-in-right")
-        p.mb-0.text-center A continuación, lo invitamos a consultar este pódcast para ampliar los conceptos para una eficiente y efectiva gestión de canales:
+        p.mb-0.text-center A continuación, lo invitamos a consultar este pódcast para ampliar los conceptos relacionados con la gestión eficiente y efectiva de canales:
 
       .row.justify-content-center.mb-5
         .col-12.col-lg-8
@@ -195,7 +194,7 @@
             .row.align-items-center
               .col-12.col-lg-4.mb-3.mb-lg-0.pb-0.pt-4.ps-5.d-lg-block.d-none
                 figure
-                  img(src='@/assets/curso/tema2/img_14.png', class="img-fluid", alt="Mujer sonriente usando una tableta frente a un dispositivo de escaneo, con íconos de idea y objetivo")
+                  img(src='@/assets/curso/tema2/img_14.png', class="img-fluid", alt="")
               .col-12.col-lg-8.pe-3.pe-lg-5
                 TarjetaAudio.color-secundario.mb-0(
                   texto="<span style='font-style: normal !important;'>Gestión estratégica de canales"
@@ -218,7 +217,7 @@
           .row.align-items-center
             .col-8.col-lg-3.d-lg-block.d-none
               figure
-                img(src='@/assets/curso/tema1/img_16.svg', class="img-fluid", alt="Icono de una ventana de navegador con gráfico de barras y una silueta decorativa sobre fondo circular amarillo")
+                img(src='@/assets/curso/tema1/img_16.svg', class="img-fluid", alt="")
             .col-12.col-lg-8
               h5.etiqueta.color-acento-botones.mb-2 Frase de reflexión
               p.mb-0 Elegir un canal comercial también es un acto de responsabilidad: la integridad no solo se refleja en lo que se vende, sino en la decisión consciente de ofrecer cada producto en el entorno donde pueda ser presentado con claridad, respeto por el usuario y coherencia con la promesa de valor.

@@ -9,14 +9,14 @@
 
     .bloque-texto-t.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
-        img(src='@/assets/curso/tema5/img_1.png', alt="Mano tocando el teclado de un computador portátil con íconos holográficos de comunicación y una alerta de advertencia")
+        img(src='@/assets/curso/tema5/img_1.png', alt="")
       .bloque-texto-t__texto.col-12.col-lg-10.mb-0
-        p.mb-0 La actividad comercial en entornos digitales se desarrolla dentro de un conjunto de condiciones legales y comerciales que orientan la forma en que las organizaciones presentan, promocionan y comercializan sus productos. Su cumplimiento contribuye a proteger los derechos relacionados con los contenidos, las marcas, la información personal y las condiciones de compra, al tiempo que fortalece la transparencia y la confianza en los canales de comercio electrónico. El documento actual ya establece esta relación entre legalidad, legitimidad de la oferta y protección de derechos.
+        p.mb-0 La actividad comercial en entornos digitales se desarrolla dentro de un conjunto de condiciones legales y comerciales que orientan la forma en que las organizaciones presentan, promocionan y comercializan sus productos. Su cumplimiento contribuye a proteger los derechos relacionados con los contenidos, las marcas, la información personal y las condiciones de compra, al tiempo que fortalece la transparencia y la confianza en los canales de comercio electrónico.
 
     .row.align-items-center.mb-3
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema5/img_2.png', class="img-fluid", alt="Balanza de la justicia iluminada sobre un computador portátil, junto a íconos de análisis de datos")
+          img(src='@/assets/curso/tema5/img_2.png', class="img-fluid", alt="")
       .col-12.col-lg-8
         p.mb-3(data-aos="zoom-in-right") En la exhibición digital, estas condiciones deben integrarse desde la planificación de la oferta. Utilizar recursos autorizados, comunicar promociones con claridad, gestionar responsablemente los datos personales y establecer políticas comerciales comprensibles son prácticas que contribuyen a una relación más segura entre organización y usuario.
         .tarjeta.tarjeta--gris.py-4.px-5(data-aos="zoom-in-right")
@@ -31,7 +31,7 @@
     .row.align-items-center.mb-4
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema5/img_3.png', class="img-fluid", alt="Mano acercando una tarjeta de crédito a un carrito de compras miniatura sobre un computador portátil")
+          img(src='@/assets/curso/tema5/img_3.png', class="img-fluid", alt="")
       .col-12.col-lg-8
         p.mb-3(data-aos="zoom-in-right") El marco legal del comercio electrónico comprende los principios y disposiciones que orientan las relaciones comerciales desarrolladas mediante canales digitales. Su importancia radica en que las transacciones se realizan a distancia y dependen de información, plataformas y recursos tecnológicos que deben garantizar condiciones de claridad, seguridad y transparencia para quienes participan en el intercambio comercial.
         .tarjeta.tarjeta--gris.py-4.px-5(data-aos="zoom-in-right")
@@ -40,7 +40,7 @@
     .tarjeta.color-primario-5.py-4.px-5.mb-5(data-aos="zoom-in-right")
       .row.align-items-center
         .col
-          p.mb-0 Desde la perspectiva de la exhibición digital, el marco legal también orienta la manera en que se utilizan imágenes, marcas, contenidos promocionales y datos de los usuarios. Por esta razón, su aplicación forma parte de la planificación comercial y contribuye a construir canales más confiables y coherentes con la promesa de la organización. El texto original ya plantea que la legalidad del comercio electrónico depende de organizar responsablemente la información, la contratación, la exhibición y la relación con el consumidor.
+          p.mb-0 Desde la perspectiva de la exhibición digital, el marco legal también orienta la manera en que se utilizan imágenes, marcas, contenidos promocionales y datos de los usuarios. Por esta razón, su aplicación forma parte de la planificación comercial y contribuye a construir canales más confiables y coherentes con la promesa de la organización.
         .col-2.col-xl-1.d-lg-block.d-none
           figure
             img(src='@/assets/curso/tema5/img_4.svg', class="img-fluid")
@@ -49,7 +49,7 @@
       .row.align-items-center
         .col-2.col-lg-2.d-lg-block.d-none
           figure
-            img(src='@/assets/curso/tema2/img_7.svg', class="img-fluid", alt="Ícono de un navegador web con un globo terráqueo y un cursor")
+            img(src='@/assets/curso/tema2/img_7.svg', class="img-fluid", alt="")
         .col
           .row.justify-content-between.align-items-center
             .col-12.col-md.mb-4.mb-md-0
@@ -68,7 +68,7 @@
     .row.align-items-center.mb-4
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema5/img_5.png', class="img-fluid", alt="Mano sosteniendo una bombilla iluminada con partículas de luz sobre un fondo digital")
+          img(src='@/assets/curso/tema5/img_5.png', class="img-fluid", alt="")
       .col-12.col-lg-8
         p.mb-3(data-aos="zoom-in-right") La propiedad intelectual e industrial comprende los derechos asociados a las creaciones, contenidos y signos distintivos utilizados por las organizaciones en su actividad comercial. En el comercio electrónico, estos derechos adquieren especial relevancia porque la exhibición digital incorpora recursos como nombres de marca, logotipos, fotografías, diseños, textos, videos y piezas promocionales que forman parte de la identidad y de la propuesta comercial.
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema5.py-4.px-5(data-aos="zoom-in-right")
@@ -109,11 +109,11 @@
     .row.align-items-center.mb-4
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema5/img_6.png', class="img-fluid", alt="Mano sosteniendo un megáfono colorido del que salen íconos de comunicación digital como sobres, corazones y notas musicales")
+          img(src='@/assets/curso/tema5/img_6.png', class="img-fluid", alt="")
       .col-12.col-lg-8
         p.mb-3(data-aos="zoom-in-right") La comunicación comercial y la promoción comprenden los mensajes, contenidos y recursos utilizados para presentar, posicionar o impulsar productos y servicios en los entornos digitales. Su desarrollo debe mantener correspondencia entre aquello que se comunica y las condiciones reales de la oferta, evitando mensajes ambiguos o información que pueda generar interpretaciones erróneas.
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-2.py-4.px-5(data-aos="zoom-in-right")
-          p.mb-0 En el comercio electrónico, una promoción no se limita a captar la atención del usuario. También debe comunicar de manera comprensible las características, beneficios, precios, condiciones o restricciones que resulten necesarias para interpretar correctamente la oferta. Del mismo modo, la comunicación comercial debe permitir reconocer cuándo un contenido tiene una finalidad promocional y mantener coherencia con la información disponible en el canal. Estos principios están presentes por separado en los actuales apartados de promoción y comunicación comercial.
+          p.mb-0 En el comercio electrónico, una promoción no se limita a captar la atención del usuario. También debe comunicar de manera comprensible las características, beneficios, precios, condiciones o restricciones que resulten necesarias para interpretar correctamente la oferta. Del mismo modo, la comunicación comercial debe permitir reconocer cuándo un contenido tiene una finalidad promocional y mantener coherencia con la información disponible en el canal. 
 
     p.mb-5(data-aos="zoom-in-right") La integración de estos criterios fortalece la transparencia y contribuye a que la estrategia visual no dependa únicamente de su capacidad de persuasión, sino también de la claridad y responsabilidad con la que presenta la oferta.
 
@@ -157,7 +157,7 @@
     .row.align-items-center.mb-4
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema5/img_7.png', class="img-fluid", alt="Manos escribiendo en un computador portátil con un holograma de candado de seguridad y carpetas digitales")
+          img(src='@/assets/curso/tema5/img_7.png', class="img-fluid", alt="")
       .col-12.col-lg-8
         p.mb-3(data-aos="zoom-in-right") La protección de datos personales orienta la forma en que las organizaciones recopilan, utilizan, almacenan y gestionan la información suministrada por los usuarios dentro de los entornos digitales. En el comercio electrónico, estos datos pueden estar relacionados con identificación, contacto, ubicación, interacción y hábitos de consumo, por lo que deben administrarse con responsabilidad, seguridad y respeto por los derechos de sus titulares.
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-2.py-4.px-5(data-aos="zoom-in-right")
@@ -169,15 +169,15 @@
       .row.align-items-center
         .col-2.col-lg-2.d-lg-block.d-none
           figure
-            img(src='@/assets/curso/tema1/img_4.svg', class="img-fluid", alt="Ícono de un botón de reproducción de video")
+            img(src='@/assets/curso/tema1/img_4.svg', class="img-fluid", alt="")
         .col
           .row.justify-content-between.align-items-center
             .col-12.col-md.mb-4.mb-md-0
               h4.mb-3 Ley estatutaria 1581 de 2012: disposiciones generales para la protección de datos personales
-              p.mb-0 Acceda al siguiente recurso de apoyo para ampliar la información sobre la protección de datos personales en Colombia. El contenido desarrolla aspectos esenciales relacionados con la finalidad, el alcance y la protección de la información personal en los entornos digitales.
+              p.mb-0 Acceda al siguiente video para ampliar la información sobre la protección de datos personales en Colombia. El contenido desarrolla aspectos esenciales relacionados con la finalidad, el alcance y la protección de la información personal en los entornos digitales.
             .col-auto
               a.boton.color-acento-botones-70(href="https://www.youtube.com/watch?v=U8OGCJaKORY" target="_blank")
-                span Ir al recurso
+                span Ir al video
              
 
     .row.justify-content-center.mb-3
@@ -203,13 +203,13 @@
     .row.align-items-center.mb-4
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema5/img_8.png', class="img-fluid", alt="Carrito de compras miniatura con una caja de cartón sobre un computador portátil, en una bodega con estantería")
+          img(src='@/assets/curso/tema5/img_8.png', class="img-fluid", alt="")
       .col-12.col-lg-8
         p.mb-3(data-aos="zoom-in-right") Las políticas comerciales son el conjunto de lineamientos y condiciones que una organización establece para orientar su relación con los usuarios dentro de un canal de venta. En comercio electrónico, adquieren especial importancia porque la compra se realiza a distancia y el usuario necesita conocer con claridad qué condiciones acompañan la transacción y cómo se gestionarán las situaciones que puedan surgir antes, durante o después de la compra.
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-2.py-4.px-5(data-aos="zoom-in-right")
           p.mb-0 Estas políticas complementan la información presentada en la exhibición y fortalecen la confianza en el canal. Su comunicación debe ser clara, accesible y coherente con la operación real de la organización, evitando que condiciones relevantes permanezcan ocultas o aparezcan únicamente cuando se presenta una inconformidad.
 
-    p.mb-5(data-aos="zoom-in-right") Las políticas pueden responder a diferentes necesidades dentro de la relación comercial, como respaldar la conformidad del producto, modificar una compra, gestionar retornos o establecer otros procedimientos relacionados con la atención al usuario. La versión actual ya organiza estas funciones como respaldo, modificación, retorno y organización de la relación comercial.
+    p.mb-5(data-aos="zoom-in-right") Las políticas pueden responder a diferentes necesidades dentro de la relación comercial, como respaldar la conformidad del producto, modificar una compra, gestionar retornos o establecer otros procedimientos relacionados con la atención al usuario.
 
     .tarjeta.color-primario-5.py-3.px-4.mb-5(data-aos="zoom-in-right")
       p.mb-0.text-center Aquí se mencionan algunas políticas comerciales que orientan a los usuarios dentro de un canal de venta:
@@ -233,7 +233,7 @@
                 p.mb-0 Integra otros lineamientos necesarios para orientar la atención y la experiencia del usuario dentro del canal.
       .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema5/img_9.png', class="img-fluid", alt="Carrito de compras con cajas de cartón sobre un computador portátil, en una sala con luz natural")
+          img(src='@/assets/curso/tema5/img_9.png', class="img-fluid", alt="")
 
     Separador
 
@@ -278,7 +278,7 @@
     .row.align-items-center.mb-4
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema5/img_11.png', class="img-fluid", alt="Mano sosteniendo una tarjeta de crédito mientras escribe en un computador portátil")
+          img(src='@/assets/curso/tema5/img_11.png', class="img-fluid", alt="")
       .col-12.col-lg-8
         p.mb-3(data-aos="zoom-in-right") La información relacionada con estos mecanismos debe integrarse de forma clara y accesible dentro del canal de comercio electrónico. Su disponibilidad permite que el usuario conozca las condiciones de respaldo asociadas a la compra y reduce la incertidumbre generada por la comercialización a distancia. De esta manera, las políticas posteriores a la venta forman parte de la confianza que acompaña la exhibición y la promesa comercial de la organización.
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-4.py-4.px-5.mb-0(data-aos="zoom-in-right")

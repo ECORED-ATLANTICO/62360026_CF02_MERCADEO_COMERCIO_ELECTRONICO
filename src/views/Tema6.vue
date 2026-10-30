@@ -9,14 +9,14 @@
 
     .bloque-texto-t.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
-        img(src='@/assets/curso/tema6/img_1.png', alt="Maniquíes con prendas de vestir junto a bolsas de compras y pantallas con fotografías de productos")
+        img(src='@/assets/curso/tema6/img_1.png', alt="")
       .bloque-texto-t__texto.col-12.col-lg-10.mb-0
         p.mb-0 La exhibición digital constituye la etapa en la que convergen los diferentes elementos del comercio electrónico para presentar productos y servicios de manera organizada, atractiva y funcional dentro de los canales digitales. Su desarrollo integra aspectos relacionados con la organización de la oferta, el mercadeo visual, los recursos audiovisuales, la comunicación comercial y las condiciones técnicas que facilitan la interacción entre las organizaciones y los usuarios.
 
     .row.align-items-center.mb-3
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema6/img_2.png', class="img-fluid", alt="Carrito de compras con bolsas y cajas sobre un computador portátil que muestra el catálogo de una tienda de ropa")
+          img(src='@/assets/curso/tema6/img_2.png', class="img-fluid", alt="")
       .col-12.col-lg-8
         p.mb-3(data-aos="zoom-in-right") Una exhibición digital efectiva no depende únicamente de la calidad de los recursos gráficos utilizados, sino también de la forma en que se estructuran las categorías, se presenta la información, se articulan los contenidos y se facilita el recorrido del usuario dentro del canal de comercio electrónico. Estos elementos contribuyen a fortalecer la experiencia de navegación, favorecer la comprensión de la oferta y apoyar el proceso de decisión de compra.
         .tarjeta.tarjeta--gris.py-4.px-5(data-aos="zoom-in-right")
@@ -31,7 +31,7 @@
     .row.align-items-center.mb-4
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema6/img_3.png', class="img-fluid", alt="Computador portátil con una pantalla de tienda virtual y una lupa sobre un ícono de carrito de compras")
+          img(src='@/assets/curso/tema6/img_3.png', class="img-fluid", alt="")
       .col-12.col-lg-8
         p.mb-3(data-aos="zoom-in-right") La exhibición digital corresponde al proceso de organizar, presentar y comunicar productos o servicios dentro de los canales de comercio electrónico mediante recursos visuales, información comercial y elementos de navegación que facilitan la interacción con los usuarios. Su propósito consiste en estructurar la oferta de manera clara y coherente para favorecer la localización de los productos, fortalecer la experiencia de navegación y apoyar la toma de decisiones durante el proceso de compra.
         .tarjeta.tarjeta--gris.py-4.px-5(data-aos="zoom-in-right")
@@ -40,7 +40,7 @@
     .tarjeta.color-primario-5.py-4.px-5.mb-5(data-aos="zoom-in-right")
       .row.align-items-center
         .col
-          p.mb-0 La forma en que se desarrolla la exhibición puede variar según el tipo de producto, el canal utilizado y la estrategia comercial implementada. Por esta razón, es posible identificar diferentes tipos de exhibición digital, cada uno orientado a responder a necesidades específicas de presentación, organización o promoción de la oferta. Revisaremos, a continuación, algunos tipos de exhibición digital:
+          p.mb-0 La forma en que se desarrolla la exhibición puede variar según el tipo de producto, el canal utilizado y la estrategia comercial implementada. Por esta razón, es posible identificar diferentes tipos de exhibición digital, cada uno orientado a responder a necesidades específicas de presentación, organización o promoción de la oferta.
         .col-2.col-xl-1.d-lg-block.d-none
           figure
             img(src='@/assets/curso/tema6/img_4.svg', class="img-fluid")
@@ -64,7 +64,7 @@
                 p.mb-0 Organiza la oferta según intereses, preferencias o comportamientos de los usuarios para ofrecer una experiencia más pertinente. Aplicación: frecuente en plataformas que utilizan información de navegación para recomendar productos relacionados.
       .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema6/img_5.png', class="img-fluid", alt="Mano tocando una tableta con prendas de vestir holográficas y etiquetas de precio")
+          img(src='@/assets/curso/tema6/img_5.png', class="img-fluid", alt="")
 
     .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-5.py-4.px-5.mb-3(data-aos="zoom-in-right")
       .row.align-items-center
@@ -100,7 +100,7 @@
           p.mb-0 La organización de la exhibición debe responder a criterios de jerarquía, usabilidad y coherencia visual. Esto implica que los usuarios puedan identificar fácilmente las categorías disponibles, acceder a la información de los productos, relacionar contenidos complementarios y desplazarse entre las diferentes secciones del canal sin dificultades. De esta manera, la arquitectura de la exhibición se convierte en un elemento estratégico para fortalecer la experiencia de compra y apoyar el cumplimiento de los objetivos comerciales.
       .col-12.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema6/img_7.png', class="img-fluid", alt="Pantalla digital de una tienda mostrando la ficha de un producto con opciones de talla y color")
+          img(src='@/assets/curso/tema6/img_7.png', class="img-fluid", alt="")
 
     .row.justify-content-center.mb-5
       .col-12.col-lg-10
@@ -168,7 +168,7 @@
     .row.align-items-center.mb-4
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema6/img_8.png', class="img-fluid", alt="Envase cosmético renderizado digitalmente en tonos lila sobre un fondo del mismo color")
+          img(src='@/assets/curso/tema6/img_8.png', class="img-fluid", alt="")
       .col-12.col-lg-8
         p.mb-3(data-aos="zoom-in-right") Los recursos de representación digital permiten crear modelos e imágenes que apoyan la presentación de productos dentro de los canales de comercio electrónico. Entre los más utilizados se encuentran el diseño asistido por computador (CAD) y el renderizado 3D, herramientas complementarias que facilitan representar con precisión las características, dimensiones y apariencia de un producto antes o después de su fabricación.
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-2.py-4.px-5(data-aos="zoom-in-right")
@@ -196,7 +196,7 @@
             p.mb-0 Las representaciones obtenidas se incorporan a fichas de producto, catálogos, campañas comerciales y otros recursos utilizados dentro del canal de comercio electrónico.
       .col-12.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0
         figure
-          img(src='@/assets/curso/tema6/img_9.png', class="img-fluid", alt="Mujer observando bocetos y una representación 3D de una prenda de vestir en una pantalla")
+          img(src='@/assets/curso/tema6/img_9.png', class="img-fluid", alt="")
 
     .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-5.py-4.px-5.mb-5(data-aos="zoom-in-right")
       .row.align-items-center
@@ -216,7 +216,7 @@
           .row.align-items-center
             .col-2.col-lg-3.d-lg-block.d-none
               figure
-                img(src='@/assets/curso/tema1/img_16.svg', class="img-fluid", alt="Icono de una ventana de navegador con gráfico de barras y una silueta decorativa sobre fondo circular amarillo")
+                img(src='@/assets/curso/tema1/img_16.svg', class="img-fluid", alt="")
             .col
               h5.etiqueta.color-acento-botones.mb-2 Frase de reflexión
               p.mb-0 La representación digital fortalece la exhibición cuando transforma información técnica en recursos visuales que permiten comprender el producto antes de interactuar con él.
@@ -233,7 +233,7 @@
     .row.align-items-center.mb-4
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema6/img_10.png', class="img-fluid", alt="Hombre interactuando con prendas de vestir mostradas en una pantalla holográfica interactiva")
+          img(src='@/assets/curso/tema6/img_10.png', class="img-fluid", alt="")
       .col-12.col-lg-8
         p.mb-3(data-aos="zoom-in-right") La customización corresponde al proceso de adaptar la exhibición digital, los contenidos o la presentación de los productos de acuerdo con las características, necesidades o preferencias de los usuarios. En el comercio electrónico, esta estrategia busca ofrecer experiencias más pertinentes mediante la organización de la información, la recomendación de productos y la presentación de contenidos acordes con los intereses de cada público.
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-2.py-4.px-5(data-aos="zoom-in-right")
@@ -250,7 +250,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema6/img_11.png', class="img-fluid", alt="Pantalla interactiva de tienda mostrando la configuración de color y talla de una prenda de vestir")
+          img(src='@/assets/curso/tema6/img_11.png', class="img-fluid", alt="")
       .col-12.col-lg-7.mb-0
         .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-4.mb-0(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0.p-0
@@ -274,7 +274,7 @@
           .row.align-items-center
             .col-2.col-lg-3.d-lg-block.d-none
               figure
-                img(src='@/assets/curso/tema1/img_16.svg', class="img-fluid", alt="Icono de una ventana de navegador con gráfico de barras y una silueta decorativa sobre fondo circular amarillo")
+                img(src='@/assets/curso/tema1/img_16.svg', class="img-fluid", alt="")
             .col
               h5.etiqueta.color-acento-botones.mb-2 Frase de reflexión
               p.mb-0 Exhibir con integridad significa representar el producto con honestidad, claridad y respeto por la decisión del usuario. Una exhibición digital estratégica no manipula la percepción: organiza, explica y contextualiza la oferta para que la elección se construya sobre comprensión real y no sobre confusión visual o promesas vacías.
@@ -396,7 +396,7 @@
     .row.align-items-center.mb-4
       .col-12.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema6/img_14.png', class="img-fluid", alt="Mujer sosteniendo una tableta con la vista de realidad aumentada de una tienda, rodeada de un remolino de colores")
+          img(src='@/assets/curso/tema6/img_14.png', class="img-fluid", alt="")
       .col-12.col-lg-8
         p.mb-3(data-aos="zoom-in-right") La estructura de una propuesta de exhibición organiza la información necesaria para planificar la presentación de productos dentro de un canal de comercio electrónico. Su elaboración permite documentar los criterios que orientan la organización de la oferta, la selección de recursos visuales, las estrategias de comunicación y las condiciones necesarias para implementar la exhibición de manera coherente con los objetivos comerciales.
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-2.py-4.px-5(data-aos="zoom-in-right")
@@ -411,7 +411,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema6/img_15.png', class="img-fluid", alt="Mujer usando un teléfono para ver la realidad aumentada de una prenda de vestir en una tienda")
+          img(src='@/assets/curso/tema6/img_15.png', class="img-fluid", alt="")
       .col-12.col-lg-7.mb-0
         .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-4.mb-0(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0.p-0
@@ -479,7 +479,7 @@
           .row.align-items-center
             .col-2.col-lg-3.d-lg-block.d-none
               figure
-                img(src='@/assets/curso/tema1/img_16.svg', class="img-fluid", alt="Icono de una ventana de navegador con gráfico de barras y una silueta decorativa sobre fondo circular amarillo")
+                img(src='@/assets/curso/tema1/img_16.svg', class="img-fluid", alt="")
             .col
               h5.etiqueta.color-acento-botones.mb-2 Frase de reflexión
               p.mb-0 Una propuesta de exhibición con integridad no busca impresionar por acumulación de recursos, sino ordenar la oferta con criterio, claridad y coherencia. Cuando la organización piensa la exhibición como una solución estructurada, demuestra respeto por el producto, por el canal y por el usuario que necesita comprender antes de decidir.

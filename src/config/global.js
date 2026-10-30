@@ -84,12 +84,12 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Visual marketing y comunicación estratégica',
+        titulo: '<em>Visual marketing</em> y comunicación estratégica',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Concepto y estrategias del visual marketing',
+            titulo: 'Concepto y estrategias del <em>visual marketing</em>',
             hash: 't_3_1',
           },
           {
@@ -277,7 +277,7 @@ export default {
     {
       termino: 'Exhibición digital',
       significado:
-        'Organización y presentación visual de productos dentro de entornos electrónicos para facilitar su comprensión comercial.',
+        'organización y presentación visual de productos dentro de entornos digitales para facilitar su comprensión comercial.',
     },
     {
       termino: 'Influenciador',
@@ -308,32 +308,56 @@ export default {
   referencias: [
     {
       referencia:
-        'Cámara Colombiana de Comercio Electrónico [CCCE]. (2025). <em>Informe de cierre del comportamiento del comercio electrónico en Colombia durante 2024</em>. Cámara Colombiana de Comercio Electrónico.',
+        'Cámara Colombiana de Comercio Electrónico [CCCE]. (2025). Informe de cierre del comportamiento del comercio electrónico en Colombia durante 2024. Cámara Colombiana de Comercio Electrónico.',
       link: 'https://ccce.org.co/noticias/informe-de-cierre-del-comportamiento-del-comercio-electronico-en-colombia-durante-2024/',
     },
     {
       referencia:
-        'Guzmán Duque, A. P., & Abreo Pinzón, C. A. (2021). <em>Influencia del comercio electrónico en el desempeño financiero de las pymes en Manizales, Colombia</em>. Revista Escuela de Administración de Negocios, (91).',
+        'Congreso de la República de Colombia. (2021, 15 de diciembre). Ley estatutaria 1581 de 2012: disposiciones generales para la protección de datos personales [Vídeo]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=U8OGCJaKORY',
+    },
+    {
+      referencia:
+        'Guzmán Duque, A. P., & Abreo Pinzón, C. A. (2021). Influencia del comercio electrónico en el desempeño financiero de las pymes en Manizales, Colombia. Revista Escuela de Administración de Negocios, (91).',
       link: 'https://www.redalyc.org/journal/818/81871935006/',
     },
     {
       referencia:
-        'Mazabanda, M. A. C. (2022). <em>Merchandising visual y marketing digital: como estrategias de fortalecimiento de marca</em>. Revista Eruditus, 3(3), 41–54.',
+        'Mazabanda, M. A. C. (2022). <em>Merchandising visual</em> y <em>marketing</em> digital: como estrategias de fortalecimiento de marca. Revista Eruditus, 3(3), 41–54.',
       link: 'https://dialnet.unirioja.es/descarga/articulo/8549538.pdf',
     },
     {
       referencia:
-        'Minderest. (2020, 3 de junio). <em>La importancia del visual merchandising online</em>. Minderest.',
+        'Media Source. (2022, 4 de noviembre). Branding: Qué es, tipos, importancia y cómo crear una estrategia. Blog de Media Source.',
+      link: 'https://www.mediasource.mx/blog/branding',
+    },
+    {
+      referencia:
+        'Minderest. (2020, 3 de junio). La importancia del <em>visual merchandising online</em>. Minderest.',
       link: 'https://www.minderest.com/es/blog/2020/06/03/la-importancia-del-visual-merchandising-online',
     },
     {
       referencia:
-        'Superintendencia de Industria y Comercio [SIC]. (2021, agosto 1). <em>Todo usuario de una plataforma de comercio electrónico está protegido por los derechos del consumidor</em>. Sede Electrónica SIC.',
+        'Top-E <em>University</em>. (2021). <em>VISUAL MERCHANDISING</em> | Estrategia [Vídeo]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=H2Z9w6EP15M',
+    },
+    {
+      referencia: 'SENA. (2020). El producto [Vídeo]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=LN1eBcD5H4M',
+    },
+    {
+      referencia:
+        'Superintendencia de Industria y Comercio [SIC]. (2021, agosto 1). Todo usuario de una plataforma de comercio electrónico está protegido por los derechos del consumidor. Sede Electrónica SIC.',
       link: 'https://sedeelectronica.sic.gov.co/publicaciones/boletin-juridico/boletin/todo-usuario-de-una-plataforma-de-comercio-electronico-esta-protegido-por-los-derechos-del-consumidor',
     },
     {
       referencia:
-        'Uribe Beltrán, C. I., & Sabogal Neira, D. F. (2021). <em>Marketing digital en micro y pequeñas empresas de publicidad de Bogotá</em>. Universidad & Empresa, 23(40).',
+        'Superintendencia de Industria y Comercio. (2021, 25 de junio). Borrador Guía de Comercio Electrónico [Borrador para comentarios]. Ministerio de Comercio, Industria y Turismo. ',
+      link: 'https://sedeelectronica.sic.gov.co/transparencia/normativa/proyecto-de-guia-para-la-proteccion-del-consumidor-y-sus-datos-personales-en-el-comercio-electronico',
+    },
+    {
+      referencia:
+        'Uribe Beltrán, C. I., & Sabogal Neira, D. F. (2021). <em>Marketing</em> digital en micro y pequeñas empresas de publicidad de Bogotá. Universidad & Empresa, 23(40).',
       link: 'https://www.redalyc.org/journal/1872/187265084004/',
     },
   ],

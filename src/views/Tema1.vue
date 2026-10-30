@@ -19,10 +19,10 @@
         .col-12.col-lg-8.order-2.order-lg-1
           p.mb-4(data-aos="zoom-in-right") En el contexto del mercadeo visual, la exhibición de productos no depende únicamente de su presentación gráfica. También requiere establecer criterios para clasificarlos, agruparlos según características comunes e identificar los requerimientos técnicos y comerciales que orientan su publicación dentro de una tienda virtual o cualquier otro canal de venta electrónico. Estos aspectos favorecen la construcción de catálogos organizados, fortalecen la comunicación comercial y contribuyen a una experiencia de usuario más eficiente.
           .tarjeta.color-primario-10.py-4.px-5(data-aos="zoom-in-right")
-            p.mb-0 Comprender estos fundamentos permite reconocer la importancia de planificar la exhibición desde la naturaleza del producto y las características del canal de comercialización, constituyendo el punto de partida para desarrollar propuestas de exhibición coherentes con los objetivos comerciales de la organización.
+            p.mb-0 Comprender estos fundamentos permite reconocer la importancia de planificar la exhibición desde la naturaleza del producto y las características del canal de comercialización, lo que constituye el punto de partida para desarrollar propuestas de exhibición coherentes con los objetivos comerciales de la organización.
         .col-8.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in-right")
           figure
-            img(src='@/assets/curso/tema1/img_3.png', class="img-fluid", alt="Tableta digital sobre un mostrador de tienda de ropa que muestra el catálogo de prendas disponibles")
+            img(src='@/assets/curso/tema1/img_3.png', class="img-fluid", alt="")
 
       Separador
 
@@ -41,10 +41,10 @@
           .row.justify-content-between.align-items-center
             .col-12.col-lg.mb-4.mb-lg-0
               h4.mb-3 El producto
-              p.mb-0 Lo invitamos a consultar el siguiente recurso educativo, a través del cual podrá profundizar el concepto de producto desde una perspectiva de mercadeo, retomando la definición de la American Marketing Association, la cual explica que un producto no se limita a bienes físicos, sino que también incluye servicios, ideas, experiencias y combinaciones de elementos tangibles e intangibles.
+              p.mb-0 Lo invitamos a consultar el siguiente video, a través del cual podrá profundizar el concepto de producto desde una perspectiva de mercadeo, retomando la definición de la American Marketing Association, la cual explica que un producto no se limita a bienes físicos, sino que también incluye servicios, ideas, experiencias y combinaciones de elementos tangibles e intangibles.
             .col-auto
               a.boton.color-acento-botones-70(href="https://www.youtube.com/watch?v=LN1eBcD5H4M" target="_blank")
-                span Ir al recurso
+                span Ir al video
                 
 
     .fondo-decorativo.fondo-decorativo--tema1-2
@@ -58,7 +58,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-8.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
           figure
-            img(src='@/assets/curso/tema1/img_6.png', class="img-fluid", alt="Pantalla de exhibición digital con prendas de vestir junto a un perchero de ropa y accesorios en tienda")
+            img(src='@/assets/curso/tema1/img_6.png', class="img-fluid", alt="")
         .col-12.col-lg-8
           p.mb-4(data-aos="zoom-in-right") La organización de los productos constituye una de las bases para la construcción de una exhibición digital clara y funcional. En los entornos de comercio electrónico, las categorías permiten agrupar productos que comparten características, usos o finalidades similares, mientras que la clasificación establece los criterios utilizados para ordenar la oferta dentro del catálogo. La integración de ambos procesos facilita la navegación, mejora la localización de los productos y favorece una experiencia de compra más organizada para los usuarios.
           .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-2.py-4.px-5(data-aos="zoom-in-right")
@@ -71,8 +71,6 @@
             |  Características estratégicas de las categorías de productos
           .tabla-a.mb-5(data-aos="flip-left")
             table
-              caption
-                p.mb-0 <b>Nota.</b> SENA, (2026).
               thead
                 tr
                   th.col-auto.col-lg-4 Característica
@@ -127,12 +125,12 @@
     figure.mb-4(data-aos="flip-left")
       img(src='@/assets/curso/tema1/img_12.svg', class="img-fluid d-none d-lg-block", alt="La figura 1 presenta una infografía interactiva sobre los requerimientos de exhibición en comercio electrónico. La información se organiza en cuatro componentes: información comercial, recursos visuales, organización del catálogo y coherencia de la exhibición. Cada elemento contribuye a estructurar la oferta mediante información clara sobre los productos, recursos gráficos pertinentes, una clasificación organizada del catálogo y una presentación coherente con las características del producto y los objetivos comerciales, favoreciendo la comprensión de la oferta y la experiencia de navegación.").mb-5
       img(src='@/assets/curso/tema1/img_13.png', class="img-fluid d-block d-lg-none", alt="La figura 1 presenta una infografía interactiva sobre los requerimientos de exhibición en comercio electrónico. La información se organiza en cuatro componentes: información comercial, recursos visuales, organización del catálogo y coherencia de la exhibición. Cada elemento contribuye a estructurar la oferta mediante información clara sobre los productos, recursos gráficos pertinentes, una clasificación organizada del catálogo y una presentación coherente con las características del producto y los objetivos comerciales, favoreciendo la comprensión de la oferta y la experiencia de navegación.").mb-5
-      figcaption <b>Nota.</b> SENA, (2026).
+
 
     .row.justify-content-center.align-items-center.mb-5
       .col-8.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/tema1/img_14.png', class="img-fluid", alt="Pantalla de exhibición digital con prendas de vestir en una tienda de ropa")
+          img(src='@/assets/curso/tema1/img_14.png', class="img-fluid", alt="")
       .col-12.col-lg-8
         p.mb-4(data-aos="zoom-in-right") Los productos constituyen el punto de partida para planificar la exhibición dentro del comercio electrónico, ya que sus características determinan la forma en que serán organizados, clasificados y presentados en los diferentes canales digitales. Una adecuada definición de categorías y requerimientos de exhibición favorece la construcción de catálogos más claros, facilita la navegación de los usuarios y fortalece la comunicación comercial de la organización.
         .tarjeta.tarjeta-fondo.tarjeta-fondo--tema1-4.py-4.px-5(data-aos="zoom-in-right")

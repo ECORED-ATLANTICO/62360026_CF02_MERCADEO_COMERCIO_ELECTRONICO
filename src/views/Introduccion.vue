@@ -11,7 +11,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-8.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/introduccion/img_1.png', class="img-fluid", alt="Persona interactuando con una pantalla táctil digital que muestra la ficha de un producto en una tienda de ropa")
+          img(src='@/assets/curso/introduccion/img_1.png', class="img-fluid", alt="")
       .col-12.col-lg-8
         p.mb-4(data-aos="zoom-in-right") La transformación de los entornos digitales ha modificado la forma en que las organizaciones presentan, promocionan y comercializan productos y servicios. En este contexto, el mercadeo visual aplicado al comercio electrónico adquiere un papel estratégico al integrar elementos de comunicación, diseño, organización de contenidos y tecnología que favorecen la exhibición de productos y fortalecen la experiencia de los usuarios durante su proceso de búsqueda y compra.
         .cajon.color-acento-botones.py-4.px-5(data-aos="zoom-in-right")
@@ -24,7 +24,7 @@
           p.mb-0 La comprensión de estos contenidos permitirá al aprendiz reconocer los elementos que intervienen en la construcción de experiencias de exhibición digital organizadas, coherentes y orientadas al fortalecimiento de la presencia comercial de las organizaciones en los diferentes ecosistemas digitales.
       .col-8.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
-          img(src='@/assets/curso/introduccion/img_2.png', class="img-fluid", alt="Dos personas conversando frente a una pantalla táctil digital con la ficha de un producto en una tienda")
+          img(src='@/assets/curso/introduccion/img_2.png', class="img-fluid", alt="")
 </template>
 
 <script>

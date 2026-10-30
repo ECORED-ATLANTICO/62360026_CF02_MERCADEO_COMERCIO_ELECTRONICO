@@ -22,7 +22,7 @@ export default {
       tema: 'Mercadeo visual para comercio electrónico.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Verificar la comprensión de los conceptos, principios, recursos y aplicaciones del componente formativo relacionados con productos, canales, <em>visual marketing</em>, contenidos audiovisuales, publicidad digital, marco legal, exhibición digital, políticas comerciales y propuesta de exhibición en comercio electrónico.',
+        '<b> Objetivo:</b> verificar la comprensión de los conceptos, principios, recursos y aplicaciones del componente formativo relacionados con productos, canales, <em>visual marketing</em>, contenidos audiovisuales, publicidad digital, marco legal, exhibición digital, políticas comerciales y propuesta de exhibición en comercio electrónico.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
