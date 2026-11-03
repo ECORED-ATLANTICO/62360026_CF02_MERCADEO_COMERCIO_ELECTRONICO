@@ -109,8 +109,6 @@
           |  Herramientas de exhibición y su integración con la arquitectura digital
         .tabla-a.mb-5(data-aos="flip-left")
           table
-            caption
-              p <b>Nota.</b> SENA, (2026).
             thead
               tr
                 th.col-auto.col-lg-3 Herramienta de exhibición
@@ -315,8 +313,6 @@
           |  Comparación entre una exhibición sin planificación y una propuesta de exhibición estructurada
         .tabla-a.mb-5(data-aos="flip-left")
           table
-            caption
-              p <b>Nota.</b> SENA, (2026).
             thead
               tr
                 th.col-auto.col-lg-3 Aspecto

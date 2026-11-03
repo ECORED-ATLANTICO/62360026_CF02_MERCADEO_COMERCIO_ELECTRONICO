@@ -42,10 +42,13 @@
             .col-12.col-lg.mb-4.mb-lg-0
               h4.mb-3 El producto
               p.mb-0 Lo invitamos a consultar el siguiente video, a través del cual podrá profundizar el concepto de producto desde una perspectiva de mercadeo, retomando la definición de la American Marketing Association, la cual explica que un producto no se limita a bienes físicos, sino que también incluye servicios, ideas, experiencias y combinaciones de elementos tangibles e intangibles.
-            .col-auto
-              a.boton.color-acento-botones-70(href="https://www.youtube.com/watch?v=LN1eBcD5H4M" target="_blank")
-                span Ir al video
-                
+   
+    
+    figure.mb-5
+      .video.mb-2
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/LN1eBcD5H4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+  
+
 
     .fondo-decorativo.fondo-decorativo--tema1-2
 

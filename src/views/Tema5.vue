@@ -124,8 +124,6 @@
           |  Elementos legales de la comunicación comercial
         .tabla-a.mb-5(data-aos="flip-left")
           table
-            caption
-              p <b>Nota.</b> SENA, (2026).
             thead
               tr
                 th.col-auto.col-lg-4 Elemento
@@ -175,10 +173,12 @@
             .col-12.col-md.mb-4.mb-md-0
               h4.mb-3 Ley estatutaria 1581 de 2012: disposiciones generales para la protección de datos personales
               p.mb-0 Acceda al siguiente video para ampliar la información sobre la protección de datos personales en Colombia. El contenido desarrolla aspectos esenciales relacionados con la finalidad, el alcance y la protección de la información personal en los entornos digitales.
-            .col-auto
-              a.boton.color-acento-botones-70(href="https://www.youtube.com/watch?v=U8OGCJaKORY" target="_blank")
-                span Ir al video
-             
+
+    
+    figure.mb-5
+      .video.mb-2
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/U8OGCJaKORY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 
     .row.justify-content-center.mb-3
       .col-12.col-lg-8
@@ -255,8 +255,6 @@
           |  Mecanismos para garantías, cambios y devoluciones
         .tabla-a.mb-5(data-aos="flip-left")
           table
-            caption
-              p <b>Nota.</b> SENA, (2026).
             thead
               tr
                 th.col-auto.col-lg-4 Mecanismo
